@@ -19,7 +19,7 @@ command_exists () {
 
 fontname() {
   if command_exists superman ; then
-    echo "//b.yzcdn.cn$server_prefix/$(basename $basepath/../build/font/zenticon-*.$1)"
+    echo "https://b.yzcdn.cn$server_prefix/$(basename $basepath/../build/font/zenticon-*.$1)"
   else
     echo "$(relpath $basepath/../build/font/zenticon-*.$1)"
   fi
