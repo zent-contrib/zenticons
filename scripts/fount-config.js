@@ -216,6 +216,10 @@ module.exports = {
     src: '进入箭头.svg',
     css: 'right'
   }, {
+    keywords: ['right', 'filled'],
+    src: '箭头.svg',
+    css: 'right-circle'
+  }, {
     keywords: ['add', 'plus'],
     src: '新建.svg',
     css: 'plus'
