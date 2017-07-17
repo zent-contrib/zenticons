@@ -259,5 +259,13 @@ module.exports = {
     keywords: ['unlock', 'unlocked'],
     src: '解锁.svg',
     css: 'unlock'
+  }, {
+    keywords: ['pending', 'circle'],
+    src: '待付款.svg',
+    css: 'pending-circle'
+  }, {
+    keywords: ['forbidden', 'circle'],
+    src: '订单关闭.svg',
+    css: 'forbidden-circle'
   }]
 };
