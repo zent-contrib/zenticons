@@ -1,3 +1,7 @@
+## 修改 Sketch 文件
+
+Sketch 文件里每个图标对应一个 Slice，除了图标之外不能有其他 Slice。
+
 ## 开发
 
 `zenticons` 的大部分文件都是工具生成的，`OS X` 用户可以通过 `scripts/install-dependencies.sh` 来安装以下所有依赖。
