@@ -322,7 +322,7 @@ module.exports = {
   }, {
     keywords: ['minus', 'subtract ', 'circle', 'outline'],
     src: '减少.svg',
-    css: 'subtract -circle-o'
+    css: 'subtract-circle-o'
   }, {
     keywords: ['delete', 'remove', 'outline'],
     src: '删除.svg',
@@ -331,5 +331,13 @@ module.exports = {
     keywords: ['edit', 'outline'],
     src: '编辑.svg',
     css: 'edit-o'
+  }, {
+    keywords: ['assess', 'outline'],
+    src: '考核默认.svg',
+    css: 'assess-o'
+  }, {
+    keywords: ['assess', 'filled'],
+    src: '考核选中.svg',
+    css: 'assess'
   }]
 };
