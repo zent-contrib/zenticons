@@ -267,5 +267,77 @@ module.exports = {
     keywords: ['forbidden', 'circle'],
     src: '订单关闭.svg',
     css: 'forbidden-circle'
+  }, {
+    keywords: ['business', 'outline'],
+    src: '商机默认.svg',
+    css: 'business-o'
+  }, {
+    keywords: ['business', 'filled'],
+    src: '商机选中.svg',
+    css: 'business'
+  }, {
+    keywords: ['approval', 'outline'],
+    src: '审批默认.svg',
+    css: 'approval-o'
+  }, {
+    keywords: ['approval', 'filled'],
+    src: '审批选中.svg',
+    css: 'approval'
+  }, {
+    keywords: ['ticket', 'outline'],
+    src: '工单默认.svg',
+    css: 'ticket-o'
+  }, {
+    keywords: ['ticket', 'filled'],
+    src: '工单选中.svg',
+    css: 'ticket'
+  }, {
+    keywords: ['report', 'outline'],
+    src: '报表默认.svg',
+    css: 'report-o'
+  }, {
+    keywords: ['report', 'filled'],
+    src: '报表选中.svg',
+    css: 'report'
+  }, {
+    keywords: ['expand', 'customer', 'outline'],
+    src: '拓客默认.svg',
+    css: 'expand-customer-o'
+  }, {
+    keywords: ['expand', 'customer', 'filled'],
+    src: '拓客选中.svg',
+    css: 'expand-customer'
+  }, {
+    keywords: ['checkin', 'outline'],
+    src: '签到默认.svg',
+    css: 'checkin-o'
+  }, {
+    keywords: ['checkin', 'filled'],
+    src: '签到选中.svg',
+    css: 'checkin'
+  }, {
+    keywords: ['add', 'plus', 'circle', 'outline'],
+    src: '增加.svg',
+    css: 'plus-circle-o'
+  }, {
+    keywords: ['minus', 'subtract ', 'circle', 'outline'],
+    src: '减少.svg',
+    css: 'subtract-circle-o'
+  }, {
+    keywords: ['delete', 'remove', 'outline'],
+    src: '删除.svg',
+    css: 'remove-o'
+  }, {
+    keywords: ['edit', 'outline'],
+    src: '编辑.svg',
+    css: 'edit-o'
+  }, {
+    keywords: ['assess', 'outline'],
+    src: '考核默认.svg',
+    css: 'assess-o'
+  }, {
+    keywords: ['assess', 'filled'],
+    src: '考核选中.svg',
+    css: 'assess'
   }]
 };
