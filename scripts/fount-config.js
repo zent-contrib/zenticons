@@ -339,5 +339,21 @@ module.exports = {
     keywords: ['assess', 'filled'],
     src: '考核选中.svg',
     css: 'assess'
+  }, {
+    keywords: ['upload', 'filled'],
+    src: '上传.svg',
+    css: 'upload'
+  }, {
+    keywords: ['human resource', 'outline'],
+    src: '人事管理默认.svg',
+    css: 'hr-o'
+  }, {
+    keywords: ['human resource', 'filled'],
+    src: '人事管理选中.svg',
+    css: 'hr'
+  }, {
+    keywords: ['export', 'filled'],
+    src: '导出.svg',
+    css: 'export'
   }]
 };
