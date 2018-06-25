@@ -355,5 +355,9 @@ module.exports = {
     keywords: ['export', 'filled'],
     src: '导出.svg',
     css: 'export'
+  }, {
+    keywords: ['suggestions', 'outline'],
+    src: '意见反馈.svg',
+    css: 'suggestions'
   }]
 };
