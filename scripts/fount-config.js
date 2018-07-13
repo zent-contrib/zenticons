@@ -9,7 +9,7 @@ module.exports = {
     css_prefix_text: 'zenticon-',
     filename_hash: true
   },
-  hinting: true,
+  hinting: false,
   glyphs_dir: '../svg',
   glyphs: [{
     keywords: ['summary', 'outline'],
