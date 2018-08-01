@@ -460,7 +460,7 @@ module.exports = {
     {
       keywords: ['hc-manage', 'outline'],
       src: 'HC管理默认.svg',
-      css: 'hc-manag-o'
+      css: 'hc-manage-o'
     },
     {
       keywords: ['hc-manage', 'filled'],
