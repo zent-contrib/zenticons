@@ -53,5 +53,11 @@ cat > $basepath/../assets/_fontface.scss <<EOF
 }
 EOF
 
+# build css
+parcel build -d lib --no-source-maps assets/index.scss
+
+# copy assets
+cp -a $basepath/../build/codes.json $basepath/../lib
+
 # generate icon grid
 # $basepath/grid.sh

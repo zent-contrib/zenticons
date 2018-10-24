@@ -3,7 +3,7 @@
   "version": "1.3.4",
   "description": "A set of handcrafted icons by Youzan",
   "scripts": {
-    "prepublish": "./scripts/build.sh && zent-kit prepublish && ./scripts/post-prepublish.sh"
+    "build": "./scripts/build.sh"
   },
   "files": [
     "lib"
@@ -14,5 +14,10 @@
     "youzan"
   ],
   "author": "Li Chen <lichen@youzan.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "iconfount": "^2.0.0",
+    "parcel": "^1.10.3",
+    "sass": "^1.14.3"
+  }
 }

@@ -12,9 +12,6 @@ Sketch 文件里每个图标对应一个 Slice，除了图标之外不能有其�
 * ttfautohint: `brew install ttfautohint`, [其他安装方式](https://www.freetype.org/ttfautohint/#download)
 * fontforge: `brew install fontforge`, 需要python扩展。[其他安装方式](http://fontforge.github.io/en-US/downloads/)
 * sketchtool: https://www.sketchapp.com/tool/
-* zent-kit: `npm install -g zent-kit`
-* felint: `npm install -g felint`
-* iconfount: `npm install -g iconfount`
 
 工具生成的文件包括：
 

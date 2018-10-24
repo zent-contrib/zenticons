@@ -214,7 +214,7 @@ module.exports = {
     },
     {
       keywords: ['countdown'],
-      src: '倒计时.svg',
+      src: '代办.svg',
       css: 'countdown'
     },
     {
@@ -466,6 +466,56 @@ module.exports = {
       keywords: ['hc-manage', 'filled'],
       src: 'HC管理选中.svg',
       css: 'hc-manage'
+    },
+    {
+      keywords: ['hotline', 'outline'],
+      src: '热线.svg',
+      css: 'hotline-o'
+    },
+    {
+      keywords: ['visit', 'outline'],
+      src: '拜访.svg',
+      css: 'visit-o'
+    },
+    {
+      keywords: ['im', 'outline'],
+      src: 'IM.svg',
+      css: 'im-o'
+    },
+    {
+      keywords: ['tools', 'outline'],
+      src: '工具.svg',
+      css: 'tools-o'
+    },
+    {
+      keywords: ['knowledge', 'outline'],
+      src: '知识.svg',
+      css: 'knowledge-o'
+    },
+    {
+      keywords: ['resource', 'flow', 'outline'],
+      src: '资源转流.svg',
+      css: 'flow-o'
+    },
+    {
+      keywords: ['strategy', 'outline'],
+      src: '策略.svg',
+      css: 'strategy-o'
+    },
+    {
+      keywords: ['contract', 'outline'],
+      src: '合同.svg',
+      css: 'contract-o'
+    },
+    {
+      keywords: ['channel', 'outline'],
+      src: '渠道.svg',
+      css: 'channel-o'
+    },
+    {
+      keywords: ['quality', 'assurance', 'outline'],
+      src: '质检.svg',
+      css: 'qa-o'
     }
   ]
 };
