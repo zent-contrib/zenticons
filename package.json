@@ -3,7 +3,8 @@
   "version": "1.3.4",
   "description": "A set of handcrafted icons by Youzan",
   "scripts": {
-    "build": "./scripts/build.sh"
+    "build": "./scripts/build.sh",
+    "prepare": "yarn build"
   },
   "files": [
     "lib"
