@@ -16,7 +16,7 @@
   "author": "Li Chen <lichen@youzan.com>",
   "license": "MIT",
   "devDependencies": {
-    "iconfount": "^2.0.0",
+    "iconfount": "^2.1.1",
     "parcel": "^1.10.3",
     "sass": "^1.14.3"
   }
