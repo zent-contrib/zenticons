@@ -516,6 +516,11 @@ module.exports = {
       keywords: ['quality', 'assurance', 'outline'],
       src: '质检.svg',
       css: 'qa-o'
+    },
+    {
+      keywords: ['rights-list', 'outline'],
+      src: '维权单.svg',
+      css: 'rights-list-o'
     }
   ]
 };
