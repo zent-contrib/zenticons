@@ -1,6 +1,6 @@
 {
   "name": "zenticons",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A set of handcrafted icons by Youzan",
   "scripts": {
     "build": "./scripts/build.sh",
