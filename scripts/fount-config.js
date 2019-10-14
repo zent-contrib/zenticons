@@ -2,525 +2,730 @@ module.exports = {
   name: 'zenticon',
   output: '../build',
   meta: {
-    author: 'houzi, lichen',
+    author: 'Youzan',
     license: 'MIT',
     license_url: 'https://opensource.org/licenses/MIT',
     homepage: 'http://github.com/youzan/zenticons',
     css_prefix_text: 'zenticon-',
-    filename_hash: true
+    filename_hash: true,
   },
   hinting: false,
   glyphs_dir: '../svg',
   glyphs: [
     {
-      keywords: ['summary', 'outline'],
-      src: '概况默认.svg',
-      css: 'summary-o'
-    },
-    {
-      keywords: ['summary', 'filled'],
-      src: '概况选中.svg',
-      css: 'summary'
-    },
-    {
-      keywords: ['shop', 'outline'],
-      src: '店铺默认.svg',
-      css: 'shop-o'
-    },
-    {
-      keywords: ['shop', 'filled'],
-      src: '店铺选中.svg',
-      css: 'shop'
-    },
-    {
-      keywords: ['goods', 'outline'],
-      src: '商品默认.svg',
-      css: 'goods-o'
-    },
-    {
-      keywords: ['goods', 'filled'],
-      src: '商品选中.svg',
-      css: 'goods'
-    },
-    {
-      keywords: ['order', 'outline'],
-      src: '订单默认.svg',
-      css: 'order-o'
-    },
-    {
-      keywords: ['order', 'filled'],
-      src: '订单选中.svg',
-      css: 'order'
-    },
-    {
-      keywords: ['customer', 'outline'],
-      src: '客户默认.svg',
-      css: 'customer-o'
-    },
-    {
-      keywords: ['customer', 'filled'],
-      src: '客户选中.svg',
-      css: 'customer'
-    },
-    {
-      keywords: ['data', 'chart', 'outline'],
-      src: '数据默认.svg',
-      css: 'chart-o'
-    },
-    {
-      keywords: ['data', 'chart', 'filled'],
-      src: '数据选中.svg',
-      css: 'chart'
-    },
-    {
-      keywords: ['capital', 'outline'],
-      src: '资产默认.svg',
-      css: 'capital-o'
-    },
-    {
-      keywords: ['capital', 'filled'],
-      src: '资产选中.svg',
-      css: 'capital'
-    },
-    {
-      keywords: ['casher'],
-      src: '收银图标.svg',
-      css: 'casher'
-    },
-    {
-      keywords: ['marketing'],
-      src: '营销图标.svg',
-      css: 'marketing'
-    },
-    {
-      keywords: ['settings', 'outline'],
-      src: '设置默认.svg',
-      css: 'settings-o'
-    },
-    {
-      keywords: ['settings', 'filled'],
-      src: '设置选中.svg',
-      css: 'settings'
-    },
-    {
-      keywords: ['youzan', 'logo', 'outline'],
-      src: '有赞默认.svg',
-      css: 'youzan-o'
-    },
-    {
-      keywords: ['youzan', 'logo', 'filled'],
-      src: '有赞选中.svg',
-      css: 'youzan'
-    },
-    {
-      keywords: ['close', 'naked'],
-      src: '关闭一.svg',
-      css: 'close'
-    },
-    {
-      keywords: ['close', 'circle', 'outline'],
-      src: '关闭二.svg',
-      css: 'close-circle-o'
-    },
-    {
-      keywords: ['close', 'circle', 'filled'],
-      src: '关闭三.svg',
-      css: 'close-circle'
-    },
-    {
-      keywords: ['message', 'filled'],
-      src: '消息一.svg',
-      css: 'message'
-    },
-    {
-      keywords: ['message', 'outline'],
-      src: '消息二.svg',
-      css: 'message-o'
-    },
-    {
-      keywords: ['bell', 'filled'],
-      src: '通知一.svg',
-      css: 'bell'
-    },
-    {
-      keywords: ['bell', 'outline'],
-      src: '通知二.svg',
-      css: 'bell-o'
-    },
-    {
-      keywords: ['calendar', 'filled'],
-      src: '日历一.svg',
-      css: 'calendar'
-    },
-    {
-      keywords: ['calendar', 'outline'],
-      src: '日历二.svg',
-      css: 'calendar-o'
-    },
-    {
-      keywords: ['search'],
-      src: '搜索图标.svg',
-      css: 'search'
-    },
-    {
-      keywords: ['customer-service'],
-      src: '客服图标.svg',
-      css: 'customer-service'
-    },
-    {
-      keywords: ['feedback'],
-      src: '留言反馈.svg',
-      css: 'feedback'
-    },
-    {
-      keywords: ['error', 'circle', 'outline'],
-      src: '错误一.svg',
-      css: 'error-circle-o'
-    },
-    {
-      keywords: ['error', 'circle', 'filled'],
-      src: '错误二.svg',
-      css: 'error-circle'
-    },
-    {
-      keywords: ['check', 'circle', 'outline'],
-      src: '完成一.svg',
-      css: 'check-circle-o'
-    },
-    {
-      keywords: ['check', 'circle', 'filled'],
-      src: '完成二.svg',
-      css: 'check-circle'
-    },
-    {
-      keywords: ['help', 'circle', 'outline'],
-      src: '帮助一.svg',
-      css: 'help-circle-o'
-    },
-    {
-      keywords: ['help', 'circle', 'filled'],
-      src: '帮助二.svg',
-      css: 'help-circle'
-    },
-    {
-      keywords: ['clock', 'outline'],
-      src: '时效一.svg',
-      css: 'clock-o'
-    },
-    {
-      keywords: ['clock', 'filled'],
-      src: '时效二.svg',
-      css: 'clock'
-    },
-    {
-      keywords: ['countdown'],
-      src: '代办.svg',
-      css: 'countdown'
-    },
-    {
-      keywords: ['download'],
-      src: '下载模板.svg',
-      css: 'download'
-    },
-    {
-      keywords: ['share'],
-      src: '分享.svg',
-      css: 'share'
-    },
-    {
-      keywords: ['shop', 'decorate'],
-      src: '装修店铺.svg',
-      css: 'shop-decorate'
-    },
-    {
-      keywords: ['shop', 'template'],
-      src: '店铺模板.svg',
-      css: 'shop-template'
-    },
-    {
-      keywords: ['gift'],
-      src: '礼包.svg',
-      css: 'gift'
-    },
-    {
       keywords: ['caret', 'up'],
-      src: '收起.svg',
-      css: 'caret-up'
-    },
-    {
-      keywords: ['caret', 'down'],
-      src: '下拉.svg',
-      css: 'caret-down'
+      src: 'caret-up.svg',
+      css: 'caret-up',
     },
     {
       keywords: ['arrow', 'up'],
-      src: '升序.svg',
-      css: 'arrow-up'
+      src: 'arrow-up.svg',
+      css: 'arrow-up',
+    },
+    {
+      keywords: ['up'],
+      src: 'up.svg',
+      css: 'up',
+    },
+    {
+      keywords: ['up', 'circle', 'filled'],
+      src: 'up-circle.svg',
+      css: 'up-circle',
+    },
+    {
+      keywords: ['up', 'circle', 'outline'],
+      src: 'up-circle-o.svg',
+      css: 'up-circle-o',
+    },
+    {
+      keywords: ['caret', 'down'],
+      src: 'caret-down.svg',
+      css: 'caret-down',
     },
     {
       keywords: ['arrow', 'down'],
-      src: '倒序.svg',
-      css: 'arrow-down'
+      src: 'arrow-down.svg',
+      css: 'arrow-down',
+    },
+    {
+      keywords: ['down'],
+      src: 'down.svg',
+      css: 'down',
+    },
+    {
+      keywords: ['down', 'circle', 'filled'],
+      src: 'down-circle.svg',
+      css: 'down-circle',
+    },
+    {
+      keywords: ['down', 'circle', 'outline'],
+      src: 'down-circle-o.svg',
+      css: 'down-circle-o',
     },
     {
       keywords: ['right'],
-      src: '进入箭头.svg',
-      css: 'right'
+      src: 'right.svg',
+      css: 'right',
     },
     {
-      keywords: ['right', 'filled'],
-      src: '箭头.svg',
-      css: 'right-circle'
+      keywords: ['right', 'circle', 'filled'],
+      src: 'right-circle.svg',
+      css: 'right-circle',
     },
     {
-      keywords: ['add', 'plus'],
-      src: '新建.svg',
-      css: 'plus'
+      keywords: ['right', 'circle', 'outline'],
+      src: 'right-circle-o.svg',
+      css: 'right-circle-o',
     },
     {
-      keywords: ['star', 'outline'],
-      src: '空心星星.svg',
-      css: 'star-o'
+      keywords: ['left'],
+      src: 'left.svg',
+      css: 'left',
     },
     {
-      keywords: ['star', 'filled'],
-      src: '实心星星.svg',
-      css: 'star'
+      keywords: ['left', 'circle', 'filled'],
+      src: 'left-circle.svg',
+      css: 'left-circle',
     },
     {
-      keywords: ['check'],
-      src: '对勾.svg',
-      css: 'check'
+      keywords: ['left', 'circle', 'outline'],
+      src: 'left-circle-o.svg',
+      css: 'left-circle-o',
+    },
+    {
+      keywords: ['summary', 'outline'],
+      src: 'summary-o.svg',
+      css: 'summary-o',
+    },
+    {
+      keywords: ['summary', 'filled'],
+      src: 'summary.svg',
+      css: 'summary',
+    },
+    {
+      keywords: ['shop', 'outline'],
+      src: 'shop-o.svg',
+      css: 'shop-o',
+    },
+    {
+      keywords: ['shop', 'filled'],
+      src: 'shop.svg',
+      css: 'shop',
+    },
+    {
+      keywords: ['goods', 'outline'],
+      src: 'goods-o.svg',
+      css: 'goods-o',
+    },
+    {
+      keywords: ['goods', 'filled'],
+      src: 'goods.svg',
+      css: 'goods',
+    },
+    {
+      keywords: ['order', 'outline'],
+      src: 'order-o.svg',
+      css: 'order-o',
+    },
+    {
+      keywords: ['order', 'filled'],
+      src: 'order.svg',
+      css: 'order',
+    },
+    {
+      keywords: ['customer', 'outline'],
+      src: 'customer-o.svg',
+      css: 'customer-o',
+    },
+    {
+      keywords: ['customer', 'filled'],
+      src: 'customer.svg',
+      css: 'customer',
+    },
+    {
+      keywords: ['data', 'chart', 'outline'],
+      src: 'chart-o.svg',
+      css: 'chart-o',
+    },
+    {
+      keywords: ['data', 'chart', 'filled'],
+      src: 'chart.svg',
+      css: 'chart',
+    },
+    {
+      keywords: ['capital', 'outline'],
+      src: 'capital-o.svg',
+      css: 'capital-o',
+    },
+    {
+      keywords: ['capital', 'filled'],
+      src: 'capital.svg',
+      css: 'capital',
+    },
+    {
+      keywords: ['casher'],
+      src: 'casher.svg',
+      css: 'casher',
+    },
+    {
+      keywords: ['cashier'],
+      src: 'casher.svg',
+      css: 'cashier',
+    },
+    {
+      keywords: ['marketing'],
+      src: 'marketing.svg',
+      css: 'marketing',
+    },
+    {
+      keywords: ['settings', 'outline'],
+      src: 'settings-o.svg',
+      css: 'settings-o',
+    },
+    {
+      keywords: ['settings', 'filled'],
+      src: 'settings.svg',
+      css: 'settings',
+    },
+    {
+      keywords: ['youzan', 'logo', 'outline'],
+      src: 'youzan-o.svg',
+      css: 'youzan-o',
+    },
+    {
+      keywords: ['youzan', 'logo', 'filled'],
+      src: 'youzan.svg',
+      css: 'youzan',
+    },
+    {
+      keywords: ['close', 'naked'],
+      src: 'close.svg',
+      css: 'close',
+    },
+    {
+      keywords: ['close', 'circle', 'outline'],
+      src: 'close-circle-o.svg',
+      css: 'close-circle-o',
+    },
+    {
+      keywords: ['close', 'circle', 'filled'],
+      src: 'close-circle.svg',
+      css: 'close-circle',
+    },
+    {
+      keywords: ['message', 'filled'],
+      src: 'message.svg',
+      css: 'message',
+    },
+    {
+      keywords: ['message', 'outline'],
+      src: 'message-o.svg',
+      css: 'message-o',
+    },
+    {
+      keywords: ['bell', 'filled'],
+      src: 'bell.svg',
+      css: 'bell',
+    },
+    {
+      keywords: ['bell', 'outline'],
+      src: 'bell-o.svg',
+      css: 'bell-o',
+    },
+    {
+      keywords: ['calendar', 'filled'],
+      src: 'calendar.svg',
+      css: 'calendar',
+    },
+    {
+      keywords: ['calendar', 'outline'],
+      src: 'calendar-o.svg',
+      css: 'calendar-o',
+    },
+    {
+      keywords: ['search'],
+      src: 'search.svg',
+      css: 'search',
+    },
+    {
+      keywords: ['customer-service'],
+      src: 'customer-service.svg',
+      css: 'customer-service',
+    },
+    {
+      keywords: ['feedback'],
+      src: 'feedback.svg',
+      css: 'feedback',
+    },
+    {
+      keywords: ['smile'],
+      src: 'smile.svg',
+      css: 'smile',
+    },
+    {
+      keywords: ['photo'],
+      src: 'photo.svg',
+      css: 'photo',
+    },
+    {
+      keywords: ['error', 'circle', 'outline'],
+      src: 'tips-circle-o.svg',
+      css: 'error-circle-o',
+    },
+    {
+      keywords: ['error', 'circle', 'filled'],
+      src: 'tips-circle.svg',
+      css: 'error-circle',
     },
     {
       keywords: ['info', 'circle', 'outline'],
-      src: '信息一.svg',
-      css: 'info-circle-o'
+      src: 'info-circle-o.svg',
+      css: 'info-circle-o',
     },
     {
       keywords: ['info', 'circle', 'filled'],
-      src: '信息二.svg',
-      css: 'info-circle'
+      src: 'info-circle.svg',
+      css: 'info-circle',
     },
     {
       keywords: ['warning', 'triangle', 'outline'],
-      src: '警告一.svg',
-      css: 'warning-o'
+      src: 'warning-o.svg',
+      css: 'warning-o',
     },
     {
       keywords: ['warning', 'triangle', 'filled'],
-      src: '警告二.svg',
-      css: 'warning'
+      src: 'warning.svg',
+      css: 'warning',
     },
     {
-      keywords: ['lock', 'locked'],
-      src: '锁定.svg',
-      css: 'lock'
+      keywords: ['help', 'circle', 'outline'],
+      src: 'help-circle-o.svg',
+      css: 'help-circle-o',
     },
     {
-      keywords: ['unlock', 'unlocked'],
-      src: '解锁.svg',
-      css: 'unlock'
+      keywords: ['help', 'circle', 'filled'],
+      src: 'help-circle.svg',
+      css: 'help-circle',
     },
     {
-      keywords: ['pending', 'circle'],
-      src: '待付款.svg',
-      css: 'pending-circle'
+      keywords: ['check'],
+      src: 'check.svg',
+      css: 'check',
     },
     {
-      keywords: ['forbidden', 'circle'],
-      src: '订单关闭.svg',
-      css: 'forbidden-circle'
+      keywords: ['check', 'circle', 'outline'],
+      src: 'check-circle-o.svg',
+      css: 'check-circle-o',
     },
     {
-      keywords: ['business', 'outline'],
-      src: '商机默认.svg',
-      css: 'business-o'
+      keywords: ['check', 'circle', 'filled'],
+      src: 'check-circle.svg',
+      css: 'check-circle',
     },
     {
-      keywords: ['business', 'filled'],
-      src: '商机选中.svg',
-      css: 'business'
+      keywords: ['clock', 'outline'],
+      src: 'clock-o.svg',
+      css: 'clock-o',
     },
     {
-      keywords: ['approval', 'outline'],
-      src: '审批默认.svg',
-      css: 'approval-o'
+      keywords: ['clock', 'filled'],
+      src: 'clock.svg',
+      css: 'clock',
     },
     {
-      keywords: ['approval', 'filled'],
-      src: '审批选中.svg',
-      css: 'approval'
+      keywords: ['countdown'],
+      src: 'countdown.svg',
+      css: 'countdown',
     },
     {
-      keywords: ['ticket', 'outline'],
-      src: '工单默认.svg',
-      css: 'ticket-o'
+      keywords: ['share'],
+      src: 'share.svg',
+      css: 'share',
     },
     {
-      keywords: ['ticket', 'filled'],
-      src: '工单选中.svg',
-      css: 'ticket'
+      keywords: ['shop', 'decorate'],
+      src: 'shop-decorate.svg',
+      css: 'shop-decorate',
     },
     {
-      keywords: ['report', 'outline'],
-      src: '报表默认.svg',
-      css: 'report-o'
+      keywords: ['shop', 'template'],
+      src: 'shop.svg',
+      css: 'shop-template',
     },
     {
-      keywords: ['report', 'filled'],
-      src: '报表选中.svg',
-      css: 'report'
+      keywords: ['gift'],
+      src: 'gift.svg',
+      css: 'gift',
     },
     {
-      keywords: ['expand', 'customer', 'outline'],
-      src: '拓客默认.svg',
-      css: 'expand-customer-o'
-    },
-    {
-      keywords: ['expand', 'customer', 'filled'],
-      src: '拓客选中.svg',
-      css: 'expand-customer'
-    },
-    {
-      keywords: ['checkin', 'outline'],
-      src: '签到默认.svg',
-      css: 'checkin-o'
-    },
-    {
-      keywords: ['checkin', 'filled'],
-      src: '签到选中.svg',
-      css: 'checkin'
+      keywords: ['add', 'plus'],
+      src: 'plus.svg',
+      css: 'plus',
     },
     {
       keywords: ['add', 'plus', 'circle', 'outline'],
-      src: '增加.svg',
-      css: 'plus-circle-o'
+      src: 'plus-circle-o.svg',
+      css: 'plus-circle-o',
     },
     {
-      keywords: ['minus', 'subtract ', 'circle', 'outline'],
-      src: '减少.svg',
-      css: 'subtract-circle-o'
+      keywords: ['add', 'plus', 'circle', 'filled'],
+      src: 'plus-circle.svg',
+      css: 'plus-circle',
+    },
+    {
+      keywords: ['add', 'new', 'page'],
+      src: 'add-page.svg',
+      css: 'add-page',
+    },
+    {
+      keywords: ['star', 'outline'],
+      src: 'star-o.svg',
+      css: 'star-o',
+    },
+    {
+      keywords: ['star', 'filled'],
+      src: 'star.svg',
+      css: 'star',
+    },
+    {
+      keywords: ['lock', 'locked'],
+      src: 'lock.svg',
+      css: 'lock',
+    },
+    {
+      keywords: ['unlock', 'unlocked'],
+      src: 'unlock.svg',
+      css: 'unlock',
+    },
+    {
+      keywords: ['pending', 'circle'],
+      src: 'pending-circle.svg',
+      css: 'pending-circle',
+    },
+    {
+      keywords: ['forbidden', 'minus', 'subtract', 'circle', 'filled'],
+      src: 'subtract-circle.svg',
+      css: 'forbidden-circle',
+    },
+    {
+      keywords: ['minus', 'forbidden', 'subtract ', 'circle', 'outline'],
+      src: 'subtract-circle-o.svg',
+      css: 'subtract-circle-o',
+    },
+    {
+      keywords: ['more'],
+      src: 'more.svg',
+      css: 'more',
+    },
+    {
+      keywords: ['business', 'outline'],
+      src: 'business-o.svg',
+      css: 'business-o',
+    },
+    {
+      keywords: ['business', 'filled'],
+      src: 'business.svg',
+      css: 'business',
+    },
+    {
+      keywords: ['approval', 'outline'],
+      src: 'approval-o.svg',
+      css: 'approval-o',
+    },
+    {
+      keywords: ['approval', 'filled'],
+      src: 'approval.svg',
+      css: 'approval',
+    },
+    {
+      keywords: ['ticket', 'outline'],
+      src: 'ticket-o.svg',
+      css: 'ticket-o',
+    },
+    {
+      keywords: ['ticket', 'filled'],
+      src: 'ticket.svg',
+      css: 'ticket',
+    },
+    {
+      keywords: ['report', 'outline'],
+      src: 'report-o.svg',
+      css: 'report-o',
+    },
+    {
+      keywords: ['report', 'filled'],
+      src: 'report.svg',
+      css: 'report',
+    },
+    {
+      keywords: ['expand', 'customer', 'outline'],
+      src: 'expand-customer-o.svg',
+      css: 'expand-customer-o',
+    },
+    {
+      keywords: ['expand', 'customer', 'filled'],
+      src: 'expand-customer.svg',
+      css: 'expand-customer',
+    },
+    {
+      keywords: ['checkin', 'outline'],
+      src: 'checkin-o.svg',
+      css: 'checkin-o',
+    },
+    {
+      keywords: ['checkin', 'filled'],
+      src: 'checkin.svg',
+      css: 'checkin',
     },
     {
       keywords: ['delete', 'remove', 'outline'],
-      src: '删除.svg',
-      css: 'remove-o'
+      src: 'remove-o.svg',
+      css: 'remove-o',
     },
     {
       keywords: ['edit', 'outline'],
-      src: '编辑.svg',
-      css: 'edit-o'
+      src: 'edit-o.svg',
+      css: 'edit-o',
     },
     {
       keywords: ['assess', 'outline'],
-      src: '考核默认.svg',
-      css: 'assess-o'
+      src: 'assess-o.svg',
+      css: 'assess-o',
     },
     {
       keywords: ['assess', 'filled'],
-      src: '考核选中.svg',
-      css: 'assess'
+      src: 'assess.svg',
+      css: 'assess',
     },
     {
       keywords: ['upload', 'filled'],
-      src: '上传.svg',
-      css: 'upload'
+      src: 'upload.svg',
+      css: 'upload',
     },
     {
-      keywords: ['human resource', 'outline'],
-      src: '人事管理默认.svg',
-      css: 'hr-o'
-    },
-    {
-      keywords: ['human resource', 'filled'],
-      src: '人事管理选中.svg',
-      css: 'hr'
+      keywords: ['download'],
+      src: 'download.svg',
+      css: 'download',
     },
     {
       keywords: ['export', 'filled'],
-      src: '导出.svg',
-      css: 'export'
+      src: 'export.svg',
+      css: 'export',
+    },
+    {
+      keywords: ['nav', 'line'],
+      src: 'nav-line.svg',
+      css: 'nav-line',
+    },
+    {
+      keywords: ['nav', 'grid'],
+      src: 'nav-grid.svg',
+      css: 'nav-grid',
+    },
+    {
+      keywords: ['back'],
+      src: 'back.svg',
+      css: 'back',
+    },
+    {
+      keywords: ['link'],
+      src: 'link.svg',
+      css: 'link',
+    },
+    {
+      keywords: ['qrcode'],
+      src: 'qr.svg',
+      css: 'qrcode',
+    },
+    {
+      keywords: ['human resource', 'outline'],
+      src: 'hr-o.svg',
+      css: 'hr-o',
+    },
+    {
+      keywords: ['human resource', 'filled'],
+      src: 'hr.svg',
+      css: 'hr',
     },
     {
       keywords: ['suggestions', 'outline'],
-      src: '意见反馈.svg',
-      css: 'suggestions'
+      src: 'suggestions.svg',
+      css: 'suggestions',
     },
     {
       keywords: ['video-guide', 'outline', 'guide'],
-      src: '视频教程.svg',
-      css: 'video-guide'
+      src: 'video-guide.svg',
+      css: 'video-guide',
     },
     {
       keywords: ['text-guide', 'outline', 'guide'],
-      src: '文本教程.svg',
-      css: 'text-guide'
+      src: 'text-guide.svg',
+      css: 'text-guide',
     },
     {
       keywords: ['hc-manage', 'outline'],
-      src: 'HC管理默认.svg',
-      css: 'hc-manage-o'
+      src: 'hc-manage-o.svg',
+      css: 'hc-manage-o',
     },
     {
       keywords: ['hc-manage', 'filled'],
-      src: 'HC管理选中.svg',
-      css: 'hc-manage'
+      src: 'hc-manage.svg',
+      css: 'hc-manage',
     },
     {
       keywords: ['hotline', 'outline'],
-      src: '热线.svg',
-      css: 'hotline-o'
+      src: 'hotline-o.svg',
+      css: 'hotline-o',
     },
     {
       keywords: ['visit', 'outline'],
-      src: '拜访.svg',
-      css: 'visit-o'
+      src: 'visit.svg',
+      css: 'visit-o',
     },
     {
       keywords: ['im', 'outline'],
-      src: 'IM.svg',
-      css: 'im-o'
+      src: 'im.svg',
+      css: 'im-o',
     },
     {
       keywords: ['tools', 'outline'],
-      src: '工具.svg',
-      css: 'tools-o'
+      src: 'tools-o.svg',
+      css: 'tools-o',
     },
     {
       keywords: ['knowledge', 'outline'],
-      src: '知识.svg',
-      css: 'knowledge-o'
+      src: 'knowledge.svg',
+      css: 'knowledge-o',
     },
     {
       keywords: ['resource', 'flow', 'outline'],
-      src: '资源转流.svg',
-      css: 'flow-o'
+      src: 'flow.svg',
+      css: 'flow-o',
     },
     {
       keywords: ['strategy', 'outline'],
-      src: '策略.svg',
-      css: 'strategy-o'
+      src: 'strategy-o.svg',
+      css: 'strategy-o',
     },
     {
       keywords: ['contract', 'outline'],
-      src: '合同.svg',
-      css: 'contract-o'
+      src: 'contract.svg',
+      css: 'contract-o',
     },
     {
       keywords: ['channel', 'outline'],
-      src: '渠道.svg',
-      css: 'channel-o'
+      src: 'channel-o.svg',
+      css: 'channel-o',
     },
     {
       keywords: ['quality', 'assurance', 'outline'],
-      src: '质检.svg',
-      css: 'qa-o'
+      src: 'qa-o.svg',
+      css: 'qa-o',
     },
     {
       keywords: ['rights-list', 'outline'],
-      src: '维权单.svg',
-      css: 'rights-list-o'
-    }
-  ]
+      src: 'rights-list-o.svg',
+      css: 'rights-list-o',
+    },
+    {
+      keywords: ['report', 'forms', 'outline'],
+      src: 'report-forms-o.svg',
+      css: 'report-forms-o',
+    },
+    {
+      keywords: ['report', 'forms', 'filled'],
+      src: 'report-forms.svg',
+      css: 'report-forms',
+    },
+    {
+      keywords: ['coupon', 'outline'],
+      src: 'coupon-o.svg',
+      css: 'coupon-o',
+    },
+    {
+      keywords: ['coupon', 'filled'],
+      src: 'coupon.svg',
+      css: 'coupon',
+    },
+    {
+      keywords: ['inventory', 'outline'],
+      src: 'inventory-o.svg',
+      css: 'inventory-o',
+    },
+    {
+      keywords: ['inventory', 'filled'],
+      src: 'inventory.svg',
+      css: 'inventory',
+    },
+    {
+      keywords: ['procurement', 'outline'],
+      src: 'procurement-o.svg',
+      css: 'procurement-o',
+    },
+    {
+      keywords: ['procurement', 'filled'],
+      src: 'procurement.svg',
+      css: 'procurement',
+    },
+    {
+      keywords: ['development', 'doc'],
+      src: 'development-doc.svg',
+      css: 'development-doc',
+    },
+    {
+      keywords: ['shop', 'analyze', 'outline'],
+      src: 'shop-analyze.svg',
+      css: 'shop-analyze-o',
+    },
+    {
+      keywords: ['cashier', 'desk', 'outline'],
+      src: 'cashier-desk.svg',
+      css: 'cashier-desk-o',
+    },
+    {
+      keywords: ['withdraw', 'cash', 'outline'],
+      src: 'withdraw-cash.svg',
+      css: 'withdraw-cash-o',
+    },
+    {
+      keywords: ['payment', 'pending', 'outline'],
+      src: 'pending-payment.svg',
+      css: 'pending-payment-o',
+    },
+    {
+      keywords: ['salesman', 'outline'],
+      src: 'salesman.svg',
+      css: 'salesman-o',
+    },
+    {
+      keywords: ['tendency', 'outline'],
+      src: 'tendency.svg',
+      css: 'tendency-o',
+    },
+    {
+      keywords: ['distribution', 'outline'],
+      src: 'distribution.svg',
+      css: 'distribution-o',
+    },
+    {
+      keywords: ['member', 'outline'],
+      src: 'member.svg',
+      css: 'member-o',
+    },
+    {
+      keywords: ['wechat', 'miniapp', 'outline'],
+      src: 'mini-apps-o.svg',
+      css: 'mini-apps-o',
+    },
+    {
+      keywords: ['wechat', 'miniapp', 'filled'],
+      src: 'mini-apps.svg',
+      css: 'mini-apps',
+    },
+    {
+      keywords: ['wechat', 'filled'],
+      src: 'wechat.svg',
+      css: 'wechat',
+    },
+  ],
 };
