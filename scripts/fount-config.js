@@ -479,12 +479,12 @@ module.exports = {
     },
     {
       keywords: ['delete', 'remove', 'outline'],
-      src: 'remove-o.svg',
+      src: 'remove.svg',
       css: 'remove-o',
     },
     {
       keywords: ['edit', 'outline'],
-      src: 'edit-o.svg',
+      src: 'edit.svg',
       css: 'edit-o',
     },
     {
@@ -574,7 +574,7 @@ module.exports = {
     },
     {
       keywords: ['hotline', 'outline'],
-      src: 'hotline-o.svg',
+      src: 'hotline.svg',
       css: 'hotline-o',
     },
     {
@@ -589,7 +589,7 @@ module.exports = {
     },
     {
       keywords: ['tools', 'outline'],
-      src: 'tools-o.svg',
+      src: 'tools.svg',
       css: 'tools-o',
     },
     {
@@ -614,17 +614,17 @@ module.exports = {
     },
     {
       keywords: ['channel', 'outline'],
-      src: 'channel-o.svg',
+      src: 'channel.svg',
       css: 'channel-o',
     },
     {
       keywords: ['quality', 'assurance', 'outline'],
-      src: 'qa-o.svg',
+      src: 'qa.svg',
       css: 'qa-o',
     },
     {
       keywords: ['rights-list', 'outline'],
-      src: 'rights-list-o.svg',
+      src: 'rights-list.svg',
       css: 'rights-list-o',
     },
     {
