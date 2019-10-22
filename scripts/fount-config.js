@@ -13,39 +13,9 @@ module.exports = {
   glyphs_dir: '../svg',
   glyphs: [
     {
-      keywords: ['caret', 'up'],
-      src: 'caret-up.svg',
-      css: 'caret-up',
-    },
-    {
-      keywords: ['arrow', 'up'],
-      src: 'arrow-up.svg',
-      css: 'arrow-up',
-    },
-    {
       keywords: ['up'],
       src: 'up.svg',
       css: 'up',
-    },
-    {
-      keywords: ['up', 'circle', 'filled'],
-      src: 'up-circle.svg',
-      css: 'up-circle',
-    },
-    {
-      keywords: ['up', 'circle', 'outline'],
-      src: 'up-circle-o.svg',
-      css: 'up-circle-o',
-    },
-    {
-      keywords: ['caret', 'down'],
-      src: 'caret-down.svg',
-      css: 'caret-down',
-    },
-    {
-      keywords: ['arrow', 'down'],
-      src: 'arrow-down.svg',
-      css: 'arrow-down',
     },
     {
       keywords: ['down'],
@@ -53,14 +23,9 @@ module.exports = {
       css: 'down',
     },
     {
-      keywords: ['down', 'circle', 'filled'],
-      src: 'down-circle.svg',
-      css: 'down-circle',
-    },
-    {
-      keywords: ['down', 'circle', 'outline'],
-      src: 'down-circle-o.svg',
-      css: 'down-circle-o',
+      keywords: ['left'],
+      src: 'left.svg',
+      css: 'left',
     },
     {
       keywords: ['right'],
@@ -68,19 +33,49 @@ module.exports = {
       css: 'right',
     },
     {
-      keywords: ['right', 'circle', 'filled'],
-      src: 'right-circle.svg',
-      css: 'right-circle',
+      keywords: ['caret', 'up'],
+      src: 'caret-up.svg',
+      css: 'caret-up',
     },
     {
-      keywords: ['right', 'circle', 'outline'],
-      src: 'right-circle-o.svg',
-      css: 'right-circle-o',
+      keywords: ['caret', 'down'],
+      src: 'caret-down.svg',
+      css: 'caret-down',
     },
     {
-      keywords: ['left'],
-      src: 'left.svg',
-      css: 'left',
+      keywords: ['arrow', 'up'],
+      src: 'arrow-up.svg',
+      css: 'arrow-up',
+    },
+    {
+      keywords: ['arrow', 'down'],
+      src: 'arrow-down.svg',
+      css: 'arrow-down',
+    },
+    {
+      keywords: ['up', 'circle', 'outline'],
+      src: 'up-circle-o.svg',
+      css: 'up-circle-o',
+    },
+    {
+      keywords: ['up', 'circle', 'filled'],
+      src: 'up-circle.svg',
+      css: 'up-circle',
+    },
+    {
+      keywords: ['down', 'circle', 'outline'],
+      src: 'down-circle-o.svg',
+      css: 'down-circle-o',
+    },
+    {
+      keywords: ['down', 'circle', 'filled'],
+      src: 'down-circle.svg',
+      css: 'down-circle',
+    },
+    {
+      keywords: ['left', 'circle', 'outline'],
+      src: 'left-circle-o.svg',
+      css: 'left-circle-o',
     },
     {
       keywords: ['left', 'circle', 'filled'],
@@ -88,9 +83,284 @@ module.exports = {
       css: 'left-circle',
     },
     {
-      keywords: ['left', 'circle', 'outline'],
-      src: 'left-circle-o.svg',
-      css: 'left-circle-o',
+      keywords: ['right', 'circle', 'outline'],
+      src: 'right-circle-o.svg',
+      css: 'right-circle-o',
+    },
+    {
+      keywords: ['right', 'circle', 'filled'],
+      src: 'right-circle.svg',
+      css: 'right-circle',
+    },
+    {
+      keywords: ['check'],
+      src: 'check.svg',
+      css: 'check',
+    },
+    {
+      keywords: ['check', 'circle', 'outline'],
+      src: 'check-circle-o.svg',
+      css: 'check-circle-o',
+    },
+    {
+      keywords: ['check', 'circle', 'filled'],
+      src: 'check-circle.svg',
+      css: 'check-circle',
+    },
+    {
+      keywords: ['close', 'naked'],
+      src: 'close.svg',
+      css: 'close',
+    },
+    {
+      keywords: ['close', 'circle', 'outline'],
+      src: 'close-circle-o.svg',
+      css: 'close-circle-o',
+    },
+    {
+      keywords: ['close', 'circle', 'filled'],
+      src: 'close-circle.svg',
+      css: 'close-circle',
+    },
+    {
+      keywords: ['error', 'circle', 'outline'],
+      src: 'tips-circle-o.svg',
+      css: 'error-circle-o',
+    },
+    {
+      keywords: ['error', 'circle', 'filled'],
+      src: 'tips-circle.svg',
+      css: 'error-circle',
+    },
+    {
+      keywords: ['warning', 'triangle', 'outline'],
+      src: 'warning-o.svg',
+      css: 'warning-o',
+    },
+    {
+      keywords: ['warning', 'triangle', 'filled'],
+      src: 'warning.svg',
+      css: 'warning',
+    },
+    {
+      keywords: ['info', 'circle', 'outline'],
+      src: 'info-circle-o.svg',
+      css: 'info-circle-o',
+    },
+    {
+      keywords: ['info', 'circle', 'filled'],
+      src: 'info-circle.svg',
+      css: 'info-circle',
+    },
+    {
+      keywords: ['help', 'circle', 'outline'],
+      src: 'help-circle-o.svg',
+      css: 'help-circle-o',
+    },
+    {
+      keywords: ['help', 'circle', 'filled'],
+      src: 'help-circle.svg',
+      css: 'help-circle',
+    },
+    {
+      keywords: ['pending', 'circle'],
+      src: 'pending-circle.svg',
+      css: 'pending-circle',
+    },
+    {
+      keywords: ['clock', 'outline'],
+      src: 'clock-o.svg',
+      css: 'clock-o',
+    },
+    {
+      keywords: ['clock', 'filled'],
+      src: 'clock.svg',
+      css: 'clock',
+    },
+    {
+      keywords: ['add', 'plus', 'circle', 'outline'],
+      src: 'plus-circle-o.svg',
+      css: 'plus-circle-o',
+    },
+    {
+      keywords: ['add', 'plus', 'circle', 'filled'],
+      src: 'plus-circle.svg',
+      css: 'plus-circle',
+    },
+    {
+      keywords: ['add', 'plus'],
+      src: 'plus.svg',
+      css: 'plus',
+    },
+    {
+      keywords: ['add', 'new', 'page'],
+      src: 'add-page.svg',
+      css: 'add-page',
+    },
+    {
+      keywords: ['minus', 'subtract ', 'circle', 'outline'],
+      src: 'subtract-circle-o.svg',
+      css: 'subtract-circle-o',
+    },
+    {
+      keywords: ['minus', 'subtract', 'circle', 'filled'],
+      src: 'subtract-circle.svg',
+      css: 'subtract-circle',
+    },
+    {
+      keywords: ['forbidden', 'circle', 'filled', 'duplicate'],
+      src: 'subtract-circle.svg',
+      css: 'forbidden-circle',
+    },
+    {
+      keywords: ['search'],
+      src: 'search.svg',
+      css: 'search',
+    },
+    {
+      keywords: ['delete', 'remove', 'outline'],
+      src: 'remove.svg',
+      css: 'remove-o',
+    },
+    {
+      keywords: ['more'],
+      src: 'more.svg',
+      css: 'more',
+    },
+    {
+      keywords: ['customer-service'],
+      src: 'customer-service.svg',
+      css: 'customer-service',
+    },
+    {
+      keywords: ['hotline', 'outline'],
+      src: 'hotline.svg',
+      css: 'hotline-o',
+    },
+    {
+      keywords: ['message', 'outline'],
+      src: 'message-o.svg',
+      css: 'message-o',
+    },
+    {
+      keywords: ['message', 'filled'],
+      src: 'message.svg',
+      css: 'message',
+    },
+    {
+      keywords: ['bell', 'outline'],
+      src: 'bell-o.svg',
+      css: 'bell-o',
+    },
+    {
+      keywords: ['bell', 'filled'],
+      src: 'bell.svg',
+      css: 'bell',
+    },
+    {
+      keywords: ['calendar', 'outline'],
+      src: 'calendar-o.svg',
+      css: 'calendar-o',
+    },
+    {
+      keywords: ['calendar', 'filled'],
+      src: 'calendar.svg',
+      css: 'calendar',
+    },
+    {
+      keywords: ['star', 'outline'],
+      src: 'star-o.svg',
+      css: 'star-o',
+    },
+    {
+      keywords: ['star', 'filled'],
+      src: 'star.svg',
+      css: 'star',
+    },
+    {
+      keywords: ['lock', 'locked'],
+      src: 'lock.svg',
+      css: 'lock',
+    },
+    {
+      keywords: ['unlock', 'unlocked'],
+      src: 'unlock.svg',
+      css: 'unlock',
+    },
+    {
+      keywords: ['upload', 'filled'],
+      src: 'upload.svg',
+      css: 'upload',
+    },
+    {
+      keywords: ['download'],
+      src: 'download.svg',
+      css: 'download',
+    },
+    {
+      keywords: ['export', 'filled'],
+      src: 'export.svg',
+      css: 'export',
+    },
+    {
+      keywords: ['share'],
+      src: 'share.svg',
+      css: 'share',
+    },
+    {
+      keywords: ['nav', 'line'],
+      src: 'nav-line.svg',
+      css: 'nav-line',
+    },
+    {
+      keywords: ['nav', 'grid'],
+      src: 'nav-grid.svg',
+      css: 'nav-grid',
+    },
+    {
+      keywords: ['back'],
+      src: 'back.svg',
+      css: 'back',
+    },
+    {
+      keywords: ['link'],
+      src: 'link.svg',
+      css: 'link',
+    },
+    {
+      keywords: ['qrcode'],
+      src: 'qr.svg',
+      css: 'qrcode',
+    },
+    {
+      keywords: ['edit', 'outline'],
+      src: 'edit.svg',
+      css: 'edit-o',
+    },
+    {
+      keywords: ['suggestions', 'outline'],
+      src: 'suggestions.svg',
+      css: 'suggestions',
+    },
+    {
+      keywords: ['feedback'],
+      src: 'feedback.svg',
+      css: 'feedback',
+    },
+    {
+      keywords: ['smile'],
+      src: 'smile.svg',
+      css: 'smile',
+    },
+    {
+      keywords: ['photo'],
+      src: 'photo.svg',
+      css: 'photo',
+    },
+    {
+      keywords: ['tools', 'outline'],
+      src: 'tools.svg',
+      css: 'tools-o',
     },
     {
       keywords: ['summary', 'outline'],
@@ -111,6 +381,11 @@ module.exports = {
       keywords: ['shop', 'filled'],
       src: 'shop.svg',
       css: 'shop',
+    },
+    {
+      keywords: ['shop', 'template', 'filled', 'duplicate'],
+      src: 'shop.svg',
+      css: 'shop-template',
     },
     {
       keywords: ['goods', 'outline'],
@@ -163,7 +438,7 @@ module.exports = {
       css: 'capital',
     },
     {
-      keywords: ['casher'],
+      keywords: ['casher', 'duplicate'],
       src: 'casher.svg',
       css: 'casher',
     },
@@ -188,159 +463,9 @@ module.exports = {
       css: 'settings',
     },
     {
-      keywords: ['youzan', 'logo', 'outline'],
-      src: 'youzan-o.svg',
-      css: 'youzan-o',
-    },
-    {
-      keywords: ['youzan', 'logo', 'filled'],
-      src: 'youzan.svg',
-      css: 'youzan',
-    },
-    {
-      keywords: ['close', 'naked'],
-      src: 'close.svg',
-      css: 'close',
-    },
-    {
-      keywords: ['close', 'circle', 'outline'],
-      src: 'close-circle-o.svg',
-      css: 'close-circle-o',
-    },
-    {
-      keywords: ['close', 'circle', 'filled'],
-      src: 'close-circle.svg',
-      css: 'close-circle',
-    },
-    {
-      keywords: ['message', 'filled'],
-      src: 'message.svg',
-      css: 'message',
-    },
-    {
-      keywords: ['message', 'outline'],
-      src: 'message-o.svg',
-      css: 'message-o',
-    },
-    {
-      keywords: ['bell', 'filled'],
-      src: 'bell.svg',
-      css: 'bell',
-    },
-    {
-      keywords: ['bell', 'outline'],
-      src: 'bell-o.svg',
-      css: 'bell-o',
-    },
-    {
-      keywords: ['calendar', 'filled'],
-      src: 'calendar.svg',
-      css: 'calendar',
-    },
-    {
-      keywords: ['calendar', 'outline'],
-      src: 'calendar-o.svg',
-      css: 'calendar-o',
-    },
-    {
-      keywords: ['search'],
-      src: 'search.svg',
-      css: 'search',
-    },
-    {
-      keywords: ['customer-service'],
-      src: 'customer-service.svg',
-      css: 'customer-service',
-    },
-    {
-      keywords: ['feedback'],
-      src: 'feedback.svg',
-      css: 'feedback',
-    },
-    {
-      keywords: ['smile'],
-      src: 'smile.svg',
-      css: 'smile',
-    },
-    {
-      keywords: ['photo'],
-      src: 'photo.svg',
-      css: 'photo',
-    },
-    {
-      keywords: ['error', 'circle', 'outline'],
-      src: 'tips-circle-o.svg',
-      css: 'error-circle-o',
-    },
-    {
-      keywords: ['error', 'circle', 'filled'],
-      src: 'tips-circle.svg',
-      css: 'error-circle',
-    },
-    {
-      keywords: ['info', 'circle', 'outline'],
-      src: 'info-circle-o.svg',
-      css: 'info-circle-o',
-    },
-    {
-      keywords: ['info', 'circle', 'filled'],
-      src: 'info-circle.svg',
-      css: 'info-circle',
-    },
-    {
-      keywords: ['warning', 'triangle', 'outline'],
-      src: 'warning-o.svg',
-      css: 'warning-o',
-    },
-    {
-      keywords: ['warning', 'triangle', 'filled'],
-      src: 'warning.svg',
-      css: 'warning',
-    },
-    {
-      keywords: ['help', 'circle', 'outline'],
-      src: 'help-circle-o.svg',
-      css: 'help-circle-o',
-    },
-    {
-      keywords: ['help', 'circle', 'filled'],
-      src: 'help-circle.svg',
-      css: 'help-circle',
-    },
-    {
-      keywords: ['check'],
-      src: 'check.svg',
-      css: 'check',
-    },
-    {
-      keywords: ['check', 'circle', 'outline'],
-      src: 'check-circle-o.svg',
-      css: 'check-circle-o',
-    },
-    {
-      keywords: ['check', 'circle', 'filled'],
-      src: 'check-circle.svg',
-      css: 'check-circle',
-    },
-    {
-      keywords: ['clock', 'outline'],
-      src: 'clock-o.svg',
-      css: 'clock-o',
-    },
-    {
-      keywords: ['clock', 'filled'],
-      src: 'clock.svg',
-      css: 'clock',
-    },
-    {
       keywords: ['countdown'],
       src: 'countdown.svg',
       css: 'countdown',
-    },
-    {
-      keywords: ['share'],
-      src: 'share.svg',
-      css: 'share',
     },
     {
       keywords: ['shop', 'decorate'],
@@ -348,74 +473,9 @@ module.exports = {
       css: 'shop-decorate',
     },
     {
-      keywords: ['shop', 'template'],
-      src: 'shop.svg',
-      css: 'shop-template',
-    },
-    {
       keywords: ['gift'],
       src: 'gift.svg',
       css: 'gift',
-    },
-    {
-      keywords: ['add', 'plus'],
-      src: 'plus.svg',
-      css: 'plus',
-    },
-    {
-      keywords: ['add', 'plus', 'circle', 'outline'],
-      src: 'plus-circle-o.svg',
-      css: 'plus-circle-o',
-    },
-    {
-      keywords: ['add', 'plus', 'circle', 'filled'],
-      src: 'plus-circle.svg',
-      css: 'plus-circle',
-    },
-    {
-      keywords: ['add', 'new', 'page'],
-      src: 'add-page.svg',
-      css: 'add-page',
-    },
-    {
-      keywords: ['star', 'outline'],
-      src: 'star-o.svg',
-      css: 'star-o',
-    },
-    {
-      keywords: ['star', 'filled'],
-      src: 'star.svg',
-      css: 'star',
-    },
-    {
-      keywords: ['lock', 'locked'],
-      src: 'lock.svg',
-      css: 'lock',
-    },
-    {
-      keywords: ['unlock', 'unlocked'],
-      src: 'unlock.svg',
-      css: 'unlock',
-    },
-    {
-      keywords: ['pending', 'circle'],
-      src: 'pending-circle.svg',
-      css: 'pending-circle',
-    },
-    {
-      keywords: ['forbidden', 'minus', 'subtract', 'circle', 'filled'],
-      src: 'subtract-circle.svg',
-      css: 'forbidden-circle',
-    },
-    {
-      keywords: ['minus', 'forbidden', 'subtract ', 'circle', 'outline'],
-      src: 'subtract-circle-o.svg',
-      css: 'subtract-circle-o',
-    },
-    {
-      keywords: ['more'],
-      src: 'more.svg',
-      css: 'more',
     },
     {
       keywords: ['business', 'outline'],
@@ -478,16 +538,6 @@ module.exports = {
       css: 'checkin',
     },
     {
-      keywords: ['delete', 'remove', 'outline'],
-      src: 'remove.svg',
-      css: 'remove-o',
-    },
-    {
-      keywords: ['edit', 'outline'],
-      src: 'edit.svg',
-      css: 'edit-o',
-    },
-    {
       keywords: ['assess', 'outline'],
       src: 'assess-o.svg',
       css: 'assess-o',
@@ -496,46 +546,6 @@ module.exports = {
       keywords: ['assess', 'filled'],
       src: 'assess.svg',
       css: 'assess',
-    },
-    {
-      keywords: ['upload', 'filled'],
-      src: 'upload.svg',
-      css: 'upload',
-    },
-    {
-      keywords: ['download'],
-      src: 'download.svg',
-      css: 'download',
-    },
-    {
-      keywords: ['export', 'filled'],
-      src: 'export.svg',
-      css: 'export',
-    },
-    {
-      keywords: ['nav', 'line'],
-      src: 'nav-line.svg',
-      css: 'nav-line',
-    },
-    {
-      keywords: ['nav', 'grid'],
-      src: 'nav-grid.svg',
-      css: 'nav-grid',
-    },
-    {
-      keywords: ['back'],
-      src: 'back.svg',
-      css: 'back',
-    },
-    {
-      keywords: ['link'],
-      src: 'link.svg',
-      css: 'link',
-    },
-    {
-      keywords: ['qrcode'],
-      src: 'qr.svg',
-      css: 'qrcode',
     },
     {
       keywords: ['human resource', 'outline'],
@@ -548,21 +558,6 @@ module.exports = {
       css: 'hr',
     },
     {
-      keywords: ['suggestions', 'outline'],
-      src: 'suggestions.svg',
-      css: 'suggestions',
-    },
-    {
-      keywords: ['video-guide', 'outline', 'guide'],
-      src: 'video-guide.svg',
-      css: 'video-guide',
-    },
-    {
-      keywords: ['text-guide', 'outline', 'guide'],
-      src: 'text-guide.svg',
-      css: 'text-guide',
-    },
-    {
       keywords: ['hc-manage', 'outline'],
       src: 'hc-manage-o.svg',
       css: 'hc-manage-o',
@@ -573,11 +568,6 @@ module.exports = {
       css: 'hc-manage',
     },
     {
-      keywords: ['hotline', 'outline'],
-      src: 'hotline.svg',
-      css: 'hotline-o',
-    },
-    {
       keywords: ['visit', 'outline'],
       src: 'visit.svg',
       css: 'visit-o',
@@ -586,11 +576,6 @@ module.exports = {
       keywords: ['im', 'outline'],
       src: 'im.svg',
       css: 'im-o',
-    },
-    {
-      keywords: ['tools', 'outline'],
-      src: 'tools.svg',
-      css: 'tools-o',
     },
     {
       keywords: ['knowledge', 'outline'],
@@ -711,6 +696,26 @@ module.exports = {
       keywords: ['member', 'outline'],
       src: 'member.svg',
       css: 'member-o',
+    },
+    {
+      keywords: ['video-guide', 'outline', 'guide'],
+      src: 'video-guide.svg',
+      css: 'video-guide',
+    },
+    {
+      keywords: ['text-guide', 'outline', 'guide'],
+      src: 'text-guide.svg',
+      css: 'text-guide',
+    },
+    {
+      keywords: ['youzan', 'logo', 'outline'],
+      src: 'youzan-o.svg',
+      css: 'youzan-o',
+    },
+    {
+      keywords: ['youzan', 'logo', 'filled'],
+      src: 'youzan.svg',
+      css: 'youzan',
     },
     {
       keywords: ['wechat', 'miniapp', 'outline'],
