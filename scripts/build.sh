@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 basepath=$(dirname $0)
 server_prefix=/zent/zenticon
 
