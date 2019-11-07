@@ -37,11 +37,6 @@ $basepath/generate-font.sh
 cp -a $basepath/../build/css/zenticon-codes.css $basepath/../assets/_zenticon-codes.scss
 cp -a $basepath/../build/LICENSE.txt $basepath/../assets
 
-if command_exists superman ; then
-  # upload to cdn
-  superman cdn $server_prefix $basepath/../build/font/zenticon-*
-fi
-
 # generate fontface style
 eot=$(fontname eot)
 cat > $basepath/../assets/_fontface.scss <<EOF
@@ -63,5 +58,7 @@ parcel build -d lib --no-source-maps assets/index.scss -o lib/zenticons.css
 # copy assets
 cp -a $basepath/../build/codes.json $basepath/../lib
 
-# generate icon grid
-# $basepath/grid.sh
+if command_exists superman-cdn ; then
+  # upload to cdn
+  superman-cdn $server_prefix $basepath/../build/font/zenticon-*
+fi
