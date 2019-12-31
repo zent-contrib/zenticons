@@ -378,6 +378,11 @@ module.exports = {
       css: "voice"
     },
     {
+      keywords: ["filter", "outline", "x-cat-base"],
+      src: "filter.svg",
+      css: "filter-o"
+    },
+    {
       keywords: ["summary", "outline", "x-cat-business"],
       src: "summary-o.svg",
       css: "summary-o"
@@ -715,12 +720,17 @@ module.exports = {
     {
       keywords: ["video-guide", "outline", "guide", "x-cat-business"],
       src: "video-guide.svg",
-      css: "video-guide"
+      css: "video-guide-o"
     },
     {
       keywords: ["text-guide", "outline", "guide", "x-cat-business"],
       src: "text-guide.svg",
-      css: "text-guide"
+      css: "text-guide-o"
+    },
+    {
+      keywords: ["scan-code", "outline", "x-cat-business"],
+      src: "scan-code.svg",
+      css: "scan-code-o"
     },
     {
       keywords: ["youzan", "logo", "outline", "x-cat-logo"],
