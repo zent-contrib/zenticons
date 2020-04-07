@@ -383,6 +383,26 @@ module.exports = {
       css: "filter-o"
     },
     {
+      keywords: ["refresh", "x-cat-base"],
+      src: "refresh.svg",
+      css: "refresh"
+    },
+    {
+      keywords: ["folder", "x-cat-base"],
+      src: "folder.svg",
+      css: "folder"
+    },
+    {
+      keywords: ["open-folder", "x-cat-base"],
+      src: "open-folder.svg",
+      css: "open-folder"
+    },
+    {
+      keywords: ["save", "x-cat-base"],
+      src: "save.svg",
+      css: "save"
+    },
+    {
       keywords: ["summary", "outline", "x-cat-business"],
       src: "summary-o.svg",
       css: "summary-o"
