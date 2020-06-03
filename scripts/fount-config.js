@@ -403,6 +403,11 @@ module.exports = {
       css: "save-o"
     },
     {
+      keywords: ['drag', 'x-cat-base'],
+      src: 'drag.svg',
+      css: 'drag'
+    },
+    {
       keywords: ["summary", "outline", "x-cat-business"],
       src: "summary-o.svg",
       css: "summary-o"
