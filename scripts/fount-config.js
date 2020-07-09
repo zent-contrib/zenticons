@@ -408,6 +408,11 @@ module.exports = {
       css: 'drag'
     },
     {
+      keywords: ['thumbnail', 'x-cat-base'],
+      src: 'thumbnail.svg',
+      css: 'thumbnail'
+    },
+    {
       keywords: ["summary", "outline", "x-cat-business"],
       src: "summary-o.svg",
       css: "summary-o"
