@@ -19,6 +19,10 @@ command_exists () {
     type "$1" >/dev/null 2>&1
 }
 
+if ! command_exists superman-cdn ; then
+  echo '[warning] superman-cdn not found'
+fi
+
 fontname() {
   if command_exists superman-cdn ; then
     echo "https://b.yzcdn.cn$server_prefix/$(basename $basepath/../build/font/zenticon-*.$1)"
