@@ -413,6 +413,16 @@ module.exports = {
       css: 'thumbnail'
     },
     {
+      keywords: ["eye", "filled", "x-cat-base"],
+      src: "eye.svg",
+      css: "eye"
+    },
+    {
+      keywords: ["closed-eye", "outline", "x-cat-base"],
+      src: "closed-eye.svg",
+      css: "closed-eye"
+    },
+    {
       keywords: ["summary", "outline", "x-cat-business"],
       src: "summary-o.svg",
       css: "summary-o"
