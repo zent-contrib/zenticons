@@ -57,7 +57,7 @@ cat > $basepath/../assets/_fontface.scss <<EOF
 EOF
 
 # build css
-parcel build -d lib --no-source-maps assets/index.scss -o lib/zenticons.css
+sass --no-source-map assets/index.scss lib/zenticons.css
 
 # copy assets
 cp -a $basepath/../build/codes.json $basepath/../lib
