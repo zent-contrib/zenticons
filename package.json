@@ -19,7 +19,6 @@
   "license": "MIT",
   "devDependencies": {
     "iconfount": "^2.3.0",
-    "parcel": "^1.10.3",
-    "sass": "^1.14.3"
+    "sass": "^1.32.8"
   }
 }
