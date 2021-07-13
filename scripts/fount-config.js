@@ -33,42 +33,42 @@ module.exports = {
       css: "right"
     },
     {
-      keywords: ["left", "circle", "outline", "x-name-leftCircle", "x-cat-operation"],
+      keywords: ["left", "circle", "outline", "x-name-left_circle", "x-cat-operation"],
       src: "left-circle.svg",
       css: "left-circle-o"
     },
     {
-      keywords: ["left", "circle", "filled", "x-name-leftCircleFilled", "x-cat-operation"],
+      keywords: ["left", "circle", "filled", "x-name-left_circle_fill", "x-cat-operation"],
       src: "left-circle-fill.svg",
       css: "left-circle"
     },
     {
-      keywords: ["right", "circle", "outline", "x-name-rightCircle", "x-cat-operation"],
+      keywords: ["right", "circle", "outline", "x-name-right_circle", "x-cat-operation"],
       src: "right-circle.svg",
       css: "right-circle-o"
     },
     {
-      keywords: ["right", "circle", "filled", "x-name-rightCircleFilled", "x-cat-operation"],
+      keywords: ["right", "circle", "filled", "x-name-right_circle_fill", "x-cat-operation"],
       src: "right-circle-fill.svg",
       css: "right-circle"
     },
     {
-      keywords: ["up", "circle", "outline", "x-name-upCircle", "x-cat-operation"],
+      keywords: ["up", "circle", "outline", "x-name-up_circle", "x-cat-operation"],
       src: "up-circle.svg",
       css: "up-circle-o"
     },
     {
-      keywords: ["up", "circle", "filled", "x-name-upCircleFilled", "x-cat-operation"],
+      keywords: ["up", "circle", "filled", "x-name-up_circle_fill", "x-cat-operation"],
       src: "up-circle-fill.svg",
       css: "up-circle"
     },
     {
-      keywords: ["down", "circle", "outline", "x-name-downCircle", "x-cat-operation"],
+      keywords: ["down", "circle", "outline", "x-name-down_circle", "x-cat-operation"],
       src: "down-circle.svg",
       css: "down-circle-o"
     },
     {
-      keywords: ["down", "circle", "filled", "x-name-downCircleFilled", "x-cat-operation"],
+      keywords: ["down", "circle", "filled", "x-name-down_circle_fill", "x-cat-operation"],
       src: "down-circle-fill.svg",
       css: "down-circle"
     },
@@ -88,7 +88,7 @@ module.exports = {
       css: "edit-o"
     },
     {
-      keywords: ["edit", "filled", "x-name-editFilled", "x-cat-operation"],
+      keywords: ["edit", "filled", "x-name-edit_fill", "x-cat-operation"],
       src: "edit-fill.svg",
       css: "edit"
     },
@@ -98,7 +98,7 @@ module.exports = {
       css: "remove-o"
     },
     {
-      keywords: ["delete", "remove", "filled", "x-name-removeFilled", "x-cat-operation"],
+      keywords: ["delete", "remove", "filled", "x-name-remove_fill", "x-cat-operation"],
       src: "remove-fill.svg",
       css: "remove"
     },
@@ -108,17 +108,17 @@ module.exports = {
       css: "save-o"
     },
     {
-      keywords: ["save", "filled", "x-name-saveFilled", "x-cat-operation"],
+      keywords: ["save", "filled", "x-name-save_fill", "x-cat-operation"],
       src: "save-fill.svg",
       css: "save"
     },
     {
-      keywords: ["arrow", "up", "x-name-arrowUp", "x-cat-operation"],
+      keywords: ["arrow", "up", "x-name-arrow_up", "x-cat-operation"],
       src: "arrow-up.svg",
       css: "arrow-up"
     },
     {
-      keywords: ["arrow", "down", "x-name-arrowDown", "x-cat-operation"],
+      keywords: ["arrow", "down", "x-name-arrow_down", "x-cat-operation"],
       src: "arrow-down.svg",
       css: "arrow-down"
     },
@@ -133,7 +133,7 @@ module.exports = {
       css: "lock"
     },
     {
-      keywords: ["locked", "filled", "x-name-lockedFilled", "x-cat-operation"],
+      keywords: ["locked", "filled", "x-name-locked_fill", "x-cat-operation"],
       src: "lock-fill.svg",
       css: "locked"
     },
@@ -148,17 +148,17 @@ module.exports = {
       css: "unlock"
     },
     {
-      keywords: ["unlocked", "filled", "x-name-unlockedFilled", "x-cat-operation"],
+      keywords: ["unlocked", "filled", "x-name-unlocked_fill", "x-cat-operation"],
       src: "unlock-fill.svg",
       css: "unlocked"
     },
     {
-      keywords: ["nav", "line", "x-name-navLine", "x-cat-operation"],
+      keywords: ["nav", "line", "x-name-nav_line", "x-cat-operation"],
       src: "nav-line.svg",
       css: "nav-line"
     },
     {
-      keywords: ["nav", "grid", "x-name-navGrid", "x-cat-operation"],
+      keywords: ["nav", "grid", "x-name-nav_grid", "x-cat-operation"],
       src: "nav-grid.svg",
       css: "nav-grid"
     },
@@ -178,7 +178,7 @@ module.exports = {
       css: "help-circle-o"
     },
     {
-      keywords: ["help", "circle", "filled", "x-name-helpFilled", "x-cat-operation"],
+      keywords: ["help", "circle", "filled", "x-name-help_fill", "x-cat-operation"],
       src: "help-fill.svg",
       css: "help-circle"
     },
@@ -188,17 +188,17 @@ module.exports = {
       css: "thumbnail"
     },
     {
-      keywords: ["fullscreen", "exit", "x-name-fullscreenExit", "x-cat-operation"],
+      keywords: ["fullscreen", "exit", "x-name-fullscreen_exit", "x-cat-operation"],
       src: "fullscreen-exit.svg",
       css: "fullscreen-exit"
     },
     {
-      keywords: ["table", "loose", "x-name-tableLoose", "x-cat-operation"],
+      keywords: ["table", "loose", "x-name-table_loose", "x-cat-operation"],
       src: "table-loose.svg",
       css: "table-loose"
     },
     {
-      keywords: ["table", "compact", "x-name-tableCompact", "x-cat-operation"],
+      keywords: ["table", "compact", "x-name-table_compact", "x-cat-operation"],
       src: "table-compact.svg",
       css: "table-compact"
     },
@@ -213,7 +213,7 @@ module.exports = {
       css: "pin-o"
     },
     {
-      keywords: ["pin", "filled", "x-name-pinFilled", "x-cat-operation"],
+      keywords: ["pin", "filled", "x-name-pin_fill", "x-cat-operation"],
       src: "pin-fill.svg",
       css: "pin"
     },
@@ -223,7 +223,7 @@ module.exports = {
       css: "eye-o"
     },
     {
-      keywords: ["eye", "filled", "show", "x-name-showFilled", "x-cat-operation"],
+      keywords: ["eye", "filled", "show", "x-name-show_fill", "x-cat-operation"],
       src: "show-fill.svg",
       css: "eye"
     },
@@ -233,37 +233,37 @@ module.exports = {
       css: "closed-eye"
     },
     {
-      keywords: ["minus", "subtract ", "circle", "outline", "x-name-subtractCircle", "x-cat-operation"],
+      keywords: ["minus", "subtract ", "circle", "outline", "x-name-subtract_circle", "x-cat-operation"],
       src: "subtract-circle.svg",
       css: "subtract-circle-o"
     },
     {
-      keywords: ["minus", "subtract", "circle", "filled", "x-name-subtractCircleFilled", "x-cat-operation"],
+      keywords: ["minus", "subtract", "circle", "filled", "x-name-subtract_circle_fill", "x-cat-operation"],
       src: "subtract-circle-fill.svg",
       css: "subtract-circle"
     },
     {
-      keywords: ["forbidden", "circle", "filled", "x-name-subtractCircle", "x-cat-hide"],
+      keywords: ["forbidden", "circle", "filled", "x-name-subtract_circle", "x-cat-hide"],
       src: "subtract-circle.svg",
       css: "forbidden-circle"
     },
     {
-      keywords: ["add", "plus", "circle", "outline", "x-name-plusCircle", "x-cat-operation"],
+      keywords: ["add", "plus", "circle", "outline", "x-name-plus_circle", "x-cat-operation"],
       src: "plus-circle.svg",
       css: "plus-circle-o"
     },
     {
-      keywords: ["add", "plus", "circle", "filled", "x-name-plusCircleFilled", "x-cat-operation"],
+      keywords: ["add", "plus", "circle", "filled", "x-name-plus_circle_fill", "x-cat-operation"],
       src: "plus-circle-fill.svg",
       css: "plus-circle"
     },
     {
-      keywords: ["double", "last", "x-name-doubleLast", "x-cat-operation"],
+      keywords: ["double", "last", "x-name-double_last", "x-cat-operation"],
       src: "double-last.svg",
       css: "double-last"
     },
     {
-      keywords: ["double", "next", "x-name-doubleNext", "x-cat-operation"],
+      keywords: ["double", "next", "x-name-double_next", "x-cat-operation"],
       src: "double-next.svg",
       css: "double-next"
     },
@@ -288,7 +288,7 @@ module.exports = {
       css: "more"
     },
     {
-      keywords: ["pending", "circle", "x-name-pendingCircle", "x-cat-hide"],
+      keywords: ["pending", "circle", "x-name-pending_circle", "x-cat-hide"],
       src: "more.svg",
       css: "pending-circle"
     },
@@ -303,7 +303,7 @@ module.exports = {
       css: "caret-down"
     },
     {
-      keywords: ["reset", "filled", "x-name-resetFilled", "x-cat-operation"],
+      keywords: ["reset", "filled", "x-name-reset_fill", "x-cat-operation"],
       src: "reset-fill.svg",
       css: "reset"
     },
@@ -323,7 +323,7 @@ module.exports = {
       css: "summary-o"
     },
     {
-      keywords: ["summary", "filled", "x-name-summaryFilled", "x-cat-business"],
+      keywords: ["summary", "filled", "x-name-summary_fill", "x-cat-business"],
       src: "summary-fill.svg",
       css: "summary"
     },
@@ -333,12 +333,12 @@ module.exports = {
       css: "shop-o"
     },
     {
-      keywords: ["shop", "filled", "x-name-shopFilled", "x-cat-business"],
+      keywords: ["shop", "filled", "x-name-shop_fill", "x-cat-business"],
       src: "shop-fill.svg",
       css: "shop"
     },
     {
-      keywords: ["shop", "template", "filled", "x-name-shopTemplateFilled", "x-cat-hide"],
+      keywords: ["shop", "template", "filled", "x-name-shop_template_fill", "x-cat-hide"],
       src: "shop-fill.svg",
       css: "shop-template"
     },
@@ -348,7 +348,7 @@ module.exports = {
       css: "goods-o"
     },
     {
-      keywords: ["goods", "filled", "x-name-goodsFilled", "x-cat-business"],
+      keywords: ["goods", "filled", "x-name-goods_fill", "x-cat-business"],
       src: "goods-fill.svg",
       css: "goods"
     },
@@ -358,7 +358,7 @@ module.exports = {
       css: "order-o"
     },
     {
-      keywords: ["order", "filled", "x-name-orderFilled", "x-cat-business"],
+      keywords: ["order", "filled", "x-name-order_fill", "x-cat-business"],
       src: "order-fill.svg",
       css: "order"
     },
@@ -368,7 +368,7 @@ module.exports = {
       css: "customer-o"
     },
     {
-      keywords: ["customer", "filled", "x-name-customerFilled", "x-cat-business"],
+      keywords: ["customer", "filled", "x-name-customer_fill", "x-cat-business"],
       src: "customer-fill.svg",
       css: "customer"
     },
@@ -378,7 +378,7 @@ module.exports = {
       css: "chart-o"
     },
     {
-      keywords: ["data", "chart", "filled", "x-name-chartFilled", "x-cat-business"],
+      keywords: ["data", "chart", "filled", "x-name-chart_fill", "x-cat-business"],
       src: "chart-fill.svg",
       css: "chart"
     },
@@ -388,7 +388,7 @@ module.exports = {
       css: "capital-o"
     },
     {
-      keywords: ["capital", "filled", "x-name-capitalFilled", "x-cat-business"],
+      keywords: ["capital", "filled", "x-name-capital_fill", "x-cat-business"],
       src: "capital-fill.svg",
       css: "capital"
     },
@@ -398,7 +398,7 @@ module.exports = {
       css: "settings-o"
     },
     {
-      keywords: ["settings", "filled", "x-name-settingsFilled", "x-cat-business"],
+      keywords: ["settings", "filled", "x-name-settings_fill", "x-cat-business"],
       src: "settings-fill.svg",
       css: "settings"
     },
@@ -408,7 +408,7 @@ module.exports = {
       css: "marketing-o"
     },
     {
-      keywords: ["marketing", "filled", "x-name-marketingFilled", "x-cat-business"],
+      keywords: ["marketing", "filled", "x-name-marketing_fill", "x-cat-business"],
       src: "marketing-fill.svg",
       css: "marketing"
     },
@@ -418,7 +418,7 @@ module.exports = {
       css: "inventory-o"
     },
     {
-      keywords: ["inventory", "filled", "x-name-inventoryFilled", "x-cat-business"],
+      keywords: ["inventory", "filled", "x-name-inventory_fill", "x-cat-business"],
       src: "inventory-fill.svg",
       css: "inventory"
     },
@@ -428,7 +428,7 @@ module.exports = {
       css: "procurement-o"
     },
     {
-      keywords: ["procurement", "filled", "x-name-procurementFilled", "x-cat-business"],
+      keywords: ["procurement", "filled", "x-name-procurement_fill", "x-cat-business"],
       src: "procurement-fill.svg",
       css: "procurement"
     },
@@ -438,7 +438,7 @@ module.exports = {
       css: "finance-o"
     },
     {
-      keywords: ["finance", "filled", "x-name-financeFilled", "x-cat-business"],
+      keywords: ["finance", "filled", "x-name-finance_fill", "x-cat-business"],
       src: "finance-fill.svg",
       css: "finance"
     },
@@ -448,7 +448,7 @@ module.exports = {
       css: "cashier-o"
     },
     {
-      keywords: ["cashier", "filled", "x-name-cashierFilled", "x-cat-business"],
+      keywords: ["cashier", "filled", "x-name-cashier_fill", "x-cat-business"],
       src: "cashier-fill.svg",
       css: "cashier"
     },
@@ -463,7 +463,7 @@ module.exports = {
       css: "course-o"
     },
     {
-      keywords: ["course", "filled", "x-name-courseFilled", "x-cat-business"],
+      keywords: ["course", "filled", "x-name-course_fill", "x-cat-business"],
       src: "course-fill.svg",
       css: "course"
     },
@@ -473,7 +473,7 @@ module.exports = {
       css: "admissions-o"
     },
     {
-      keywords: ["admissions", "filled", "x-name-admissionsFilled", "x-cat-business"],
+      keywords: ["admissions", "filled", "x-name-admissions_fill", "x-cat-business"],
       src: "admissions-fill.svg",
       css: "admissions"
     },
@@ -483,7 +483,7 @@ module.exports = {
       css: "educational-o"
     },
     {
-      keywords: ["educational", "filled", "x-name-educationalFilled", "x-cat-business"],
+      keywords: ["educational", "filled", "x-name-educational_fill", "x-cat-business"],
       src: "educational-fill.svg",
       css: "educational"
     },
@@ -493,7 +493,7 @@ module.exports = {
       css: "customer-service-o"
     },
     {
-      keywords: ["customer-service", "filled", "x-name-serviceFilled", "x-cat-business"],
+      keywords: ["customer-service", "filled", "x-name-service_fill", "x-cat-business"],
       src: "service-fill.svg",
       css: "customer-service"
     },
@@ -503,57 +503,57 @@ module.exports = {
       css: "message-o"
     },
     {
-      keywords: ["message", "filled", "x-name-messageFilled", "x-cat-business"],
+      keywords: ["message", "filled", "x-name-message_fill", "x-cat-business"],
       src: "message-fill.svg",
       css: "message"
     },
     {
-      keywords: ["jump-out", "x-name-jumpOut", "x-cat-business"],
+      keywords: ["jump-out", "x-name-jump_out", "x-cat-business"],
       src: "jump-out.svg",
       css: "jump-out"
     },
     {
-      keywords: ["sign-out", "x-name-signOut", "x-cat-business"],
+      keywords: ["sign-out", "x-name-sign_out", "x-cat-business"],
       src: "sign-out.svg",
       css: "sign-out"
     },
     {
-      keywords: ["check", "circle", "outline", "success", "x-name-successCircle", "x-cat-status"],
+      keywords: ["check", "circle", "outline", "success", "x-name-success_circle", "x-cat-status"],
       src: "success-circle.svg",
       css: "check-circle-o"
     },
     {
-      keywords: ["check", "circle", "filled", "success", "x-name-successCircleFilled", "x-cat-status"],
+      keywords: ["check", "circle", "filled", "success", "x-name-success_circle_fill", "x-cat-status"],
       src: "success-circle-fill.svg",
       css: "check-circle"
     },
     {
-      keywords: ["error", "circle", "outline", "x-name-errorCircle", "x-cat-status"],
+      keywords: ["error", "circle", "outline", "x-name-error_circle", "x-cat-status"],
       src: "error-circle.svg",
       css: "close-circle-o"
     },
     {
-      keywords: ["error", "circle", "filled", "x-name-errorCircleFilled", "x-cat-status"],
+      keywords: ["error", "circle", "filled", "x-name-error_circle_fill", "x-cat-status"],
       src: "error-circle-fill.svg",
       css: "close-circle"
     },
     {
-      keywords: ["warning", "circle", "outline", "x-name-warningCircle", "x-cat-status"],
+      keywords: ["warning", "circle", "outline", "x-name-warning_circle", "x-cat-status"],
       src: "warning-circle.svg",
       css: "error-circle-o"
     },
     {
-      keywords: ["warning", "circle", "filled", "x-name-warningCircleFilled", "x-cat-status"],
+      keywords: ["warning", "circle", "filled", "x-name-warning_circle_fill", "x-cat-status"],
       src: "warning-circle-fill.svg",
       css: "error-circle"
     },
     {
-      keywords: ["info", "circle", "outline", "x-name-infoCircle", "x-cat-status"],
+      keywords: ["info", "circle", "outline", "x-name-info_circle", "x-cat-status"],
       src: "info-circle.svg",
       css: "info-circle-o"
     },
     {
-      keywords: ["info", "circle", "filled", "x-name-infoCircleFilled", "x-cat-status"],
+      keywords: ["info", "circle", "filled", "x-name-info_circle_fill", "x-cat-status"],
       src: "info-circle-fill.svg",
       css: "info-circle"
     },
@@ -563,7 +563,7 @@ module.exports = {
       css: "loading"
     },
     {
-      keywords: ["wait", "filled", "x-name-waitFilled", "x-cat-status"],
+      keywords: ["wait", "filled", "x-name-wait_fill", "x-cat-status"],
       src: "wait-fill.svg",
       css: "wait"
     },
@@ -573,7 +573,7 @@ module.exports = {
       css: "star-o"
     },
     {
-      keywords: ["star", "filled", "x-name-starFilled", "x-cat-status"],
+      keywords: ["star", "filled", "x-name-star_fill", "x-cat-status"],
       src: "star-fill.svg",
       css: "star"
     },
@@ -583,7 +583,7 @@ module.exports = {
       css: "bell-o"
     },
     {
-      keywords: ["bell", "filled", "x-name-bellFilled", "x-cat-status"],
+      keywords: ["bell", "filled", "x-name-bell_fill", "x-cat-status"],
       src: "bell-fill.svg",
       css: "bell"
     },
@@ -598,17 +598,17 @@ module.exports = {
       css: "youzan-o"
     },
     {
-      keywords: ["youzan", "logo", "filled", "x-name-youzanFilled", "x-cat-logo"],
+      keywords: ["youzan", "logo", "filled", "x-name-youzan_fill", "x-cat-logo"],
       src: "youzan-fill.svg",
       css: "youzan"
     },
     {
-      keywords: ["wechat", "miniapp", "outline", "x-name-miniApps", "x-cat-logo"],
+      keywords: ["wechat", "miniapp", "outline", "x-name-mini_apps", "x-cat-logo"],
       src: "mini-apps.svg",
       css: "mini-apps-o"
     },
     {
-      keywords: ["wechat", "miniapp", "filled", "x-name-miniAppsFilled", "x-cat-logo"],
+      keywords: ["wechat", "miniapp", "filled", "x-name-mini_apps_fill", "x-cat-logo"],
       src: "mini-apps-fill.svg",
       css: "mini-apps"
     },
@@ -618,7 +618,7 @@ module.exports = {
       css: "wechat-o"
     },
     {
-      keywords: ["wechat", "filled", "x-name-wechatFilled", "x-cat-logo"],
+      keywords: ["wechat", "filled", "x-name-wechat_fill", "x-cat-logo"],
       src: "wechat-fill.svg",
       css: "wechat"
     },
@@ -628,7 +628,7 @@ module.exports = {
       css: "clock-o"
     },
     {
-      keywords: ["clock", "filled", "x-name-clockFilled", "x-cat-base"],
+      keywords: ["clock", "filled", "x-name-clock_fill", "x-cat-base"],
       src: "clock-fill.svg",
       css: "clock"
     },
@@ -638,7 +638,7 @@ module.exports = {
       css: "calendar-o"
     },
     {
-      keywords: ["calendar", "filled", "x-name-calendarFilled", "x-cat-base"],
+      keywords: ["calendar", "filled", "x-name-calendar_fill", "x-cat-base"],
       src: "calendar-fill.svg",
       css: "calendar"
     },
@@ -653,7 +653,7 @@ module.exports = {
       css: "gift"
     },
     {
-      keywords: ["present", "filled", "x-name-presentFilled", "x-cat-base"],
+      keywords: ["present", "filled", "x-name-present_fill", "x-cat-base"],
       src: "gift-fill.svg",
       css: "present"
     },
@@ -663,17 +663,17 @@ module.exports = {
       css: "ticket-o"
     },
     {
-      keywords: ["ticket", "filled", "x-name-ticketFilled", "x-cat-base"],
+      keywords: ["ticket", "filled", "x-name-ticket_fill", "x-cat-base"],
       src: "ticket-fill.svg",
       css: "ticket"
     },
     {
-      keywords: ["expand", "customer", "outline", "x-name-expandCustomer", "x-cat-base"],
+      keywords: ["expand", "customer", "outline", "x-name-expand_customer", "x-cat-base"],
       src: "expand-customer.svg",
       css: "expand-customer-o"
     },
     {
-      keywords: ["expand", "customer", "filled", "x-name-expandCustomerFilled", "x-cat-base"],
+      keywords: ["expand", "customer", "filled", "x-name-expand_customer_fill", "x-cat-base"],
       src: "expand-customer-fill.svg",
       css: "expand-customer"
     },
@@ -683,7 +683,7 @@ module.exports = {
       css: "checkin-o"
     },
     {
-      keywords: ["checkin", "filled", "x-name-checkinFilled", "x-cat-base"],
+      keywords: ["checkin", "filled", "x-name-checkin_fill", "x-cat-base"],
       src: "checkin-fill.svg",
       css: "checkin"
     },
@@ -693,7 +693,7 @@ module.exports = {
       css: "assess-o"
     },
     {
-      keywords: ["assess", "filled", "x-name-assessFilled", "x-cat-base"],
+      keywords: ["assess", "filled", "x-name-assess_fill", "x-cat-base"],
       src: "assess-fill.svg",
       css: "assess"
     },
@@ -703,7 +703,7 @@ module.exports = {
       css: "business-o"
     },
     {
-      keywords: ["business", "filled", "x-name-businessFilled", "x-cat-base"],
+      keywords: ["business", "filled", "x-name-business_fill", "x-cat-base"],
       src: "business-fill.svg",
       css: "business"
     },
@@ -713,7 +713,7 @@ module.exports = {
       css: "hr-o"
     },
     {
-      keywords: ["human resource", "filled", "x-name-hrFilled", "x-cat-base"],
+      keywords: ["human resource", "filled", "x-name-hr_fill", "x-cat-base"],
       src: "hr-fill.svg",
       css: "hr"
     },
@@ -723,7 +723,7 @@ module.exports = {
       css: "approval-o"
     },
     {
-      keywords: ["approval", "filled", "x-name-approvalFilled", "x-cat-base"],
+      keywords: ["approval", "filled", "x-name-approval_fill", "x-cat-base"],
       src: "approval-fill.svg",
       css: "approval"
     },
@@ -733,7 +733,7 @@ module.exports = {
       css: "report-o"
     },
     {
-      keywords: ["report", "filled", "x-name-reportFilled", "x-cat-base"],
+      keywords: ["report", "filled", "x-name-report_fill", "x-cat-base"],
       src: "report-fill.svg",
       css: "report"
     },
@@ -743,27 +743,27 @@ module.exports = {
       css: "coupon-o"
     },
     {
-      keywords: ["coupon", "filled", "x-name-couponFilled", "x-cat-base"],
+      keywords: ["coupon", "filled", "x-name-coupon_fill", "x-cat-base"],
       src: "coupon-fill.svg",
       css: "coupon"
     },
     {
-      keywords: ["hc-manage", "outline", "x-name-hcManage", "x-cat-base"],
+      keywords: ["hc-manage", "outline", "x-name-hc_manage", "x-cat-base"],
       src: "hc-manage.svg",
       css: "hc-manage-o"
     },
     {
-      keywords: ["hc-manage", "filled", "x-name-hcManageFilled", "x-cat-base"],
+      keywords: ["hc-manage", "filled", "x-name-hc_manage_fill", "x-cat-base"],
       src: "hc-manage-fill.svg",
       css: "hc-manage"
     },
     {
-      keywords: ["report", "forms", "outline", "x-name-reportForms", "x-cat-base"],
+      keywords: ["report", "forms", "outline", "x-name-report_forms", "x-cat-base"],
       src: "report-forms.svg",
       css: "report-forms-o"
     },
     {
-      keywords: ["report", "forms", "filled", "x-name-reportFormsFilled", "x-cat-base"],
+      keywords: ["report", "forms", "filled", "x-name-report_forms_fill", "x-cat-base"],
       src: "report-forms-fill.svg",
       css: "report-forms"
     },
@@ -773,22 +773,22 @@ module.exports = {
       css: "brush-o"
     },
     {
-      keywords: ["shop", "decorate", "outline", "x-name-shopDecorate", "x-cat-hide"],
+      keywords: ["shop", "decorate", "outline", "x-name-shop_decorate", "x-cat-hide"],
       src: "shop-decorate.svg",
       css: "shop-decorate"
     },
     {
-      keywords: ["brush", "filled", "x-name-brushFilled", "x-cat-base"],
+      keywords: ["brush", "filled", "x-name-brush_fill", "x-cat-base"],
       src: "shop-decorate-fill.svg",
       css: "brush"
     },
     {
-      keywords: ["development", "doc", "outline", "x-name-developmentDoc", "x-cat-base"],
+      keywords: ["development", "doc", "outline", "x-name-development_doc", "x-cat-base"],
       src: "development-doc.svg",
       css: "development-doc-o"
     },
     {
-      keywords: ["development", "doc", "filled", "x-name-developmentDocFilled", "x-cat-base"],
+      keywords: ["development", "doc", "filled", "x-name-development_doc_fill", "x-cat-base"],
       src: "development-doc-fill.svg",
       css: "development-doc"
     },
@@ -803,7 +803,7 @@ module.exports = {
       css: "knowledge-o"
     },
     {
-      keywords: ["bookmark", "filled", "x-name-bookmarkFilled", "x-cat-base"],
+      keywords: ["bookmark", "filled", "x-name-bookmark_fill", "x-cat-base"],
       src: "knowledge-fill.svg",
       css: "bookmark"
     },
@@ -813,12 +813,12 @@ module.exports = {
       css: "folder-o"
     },
     {
-      keywords: ["open-folder", "outline", "x-name-openFolder", "x-cat-base"],
+      keywords: ["open-folder", "outline", "x-name-open_folder", "x-cat-base"],
       src: "open-folder.svg",
       css: "open-folder-o"
     },
     {
-      keywords: ["payment", "pending", "outline", "x-name-pendingPayment", "x-cat-base"],
+      keywords: ["payment", "pending", "outline", "x-name-pending_payment", "x-cat-base"],
       src: "pending-payment.svg",
       css: "pending-payment-o"
     },
@@ -843,7 +843,7 @@ module.exports = {
       css: "member-o"
     },
     {
-      keywords: ["text-guide", "outline", "guide", "x-name-textGuide", "x-cat-base"],
+      keywords: ["text-guide", "outline", "guide", "x-name-text_guide", "x-cat-base"],
       src: "text-guide.svg",
       css: "text-guide-o"
     },
@@ -853,7 +853,7 @@ module.exports = {
       css: "qrcode"
     },
     {
-      keywords: ["shop", "analyze", "outline", "x-name-shopAnalyze", "x-cat-base"],
+      keywords: ["shop", "analyze", "outline", "x-name-shop_analyze", "x-cat-base"],
       src: "shop-analyze.svg",
       css: "shop-analyze-o"
     },
@@ -863,7 +863,7 @@ module.exports = {
       css: "channel-o"
     },
     {
-      keywords: ["cashier", "desk", "outline", "x-name-cashierDesk", "x-cat-base"],
+      keywords: ["cashier", "desk", "outline", "x-name-cashier_desk", "x-cat-base"],
       src: "cashier-desk.svg",
       css: "cashier-desk-o"
     },
@@ -873,7 +873,7 @@ module.exports = {
       css: "qa-o"
     },
     {
-      keywords: ["withdraw", "cash", "outline", "x-name-withdrawCash", "x-cat-base"],
+      keywords: ["withdraw", "cash", "outline", "x-name-withdraw_cash", "x-cat-base"],
       src: "withdraw-cash.svg",
       css: "withdraw-cash-o"
     },
@@ -903,7 +903,7 @@ module.exports = {
       css: "video-guide-o"
     },
     {
-      keywords: ["video", "filled", "x-name-videoFilled", "x-cat-base"],
+      keywords: ["video", "filled", "x-name-video_fill", "x-cat-base"],
       src: "video-fill.svg",
       css: "video"
     },
@@ -938,7 +938,7 @@ module.exports = {
       css: "contract-o"
     },
     {
-      keywords: ["rights-list", "outline", "x-name-rightsList", "x-cat-base"],
+      keywords: ["rights-list", "outline", "x-name-rights_list", "x-cat-base"],
       src: "right-list.svg",
       css: "rights-list-o"
     },
@@ -963,12 +963,12 @@ module.exports = {
       css: "link"
     },
     {
-      keywords: ["voice", "filled", "x-name-voiceFilled", "x-cat-base"],
+      keywords: ["voice", "filled", "x-name-voice_fill", "x-cat-base"],
       src: "voice-fill.svg",
       css: "voice"
     },
     {
-      keywords: ["scan-code", "outline", "x-name-scanCode", "x-cat-base"],
+      keywords: ["scan-code", "outline", "x-name-scan_code", "x-cat-base"],
       src: "scan-code.svg",
       css: "scan-code-o"
     },
@@ -983,12 +983,12 @@ module.exports = {
       css: "warning-o"
     },
     {
-      keywords: ["warning", "triangle", "filled", "x-name-warningFilled", "x-cat-hide"],
+      keywords: ["warning", "triangle", "filled", "x-name-warning_fill", "x-cat-hide"],
       src: "warning-fill.svg",
       css: "warning"
     },
     {
-      keywords: ["add", "new", "page", "x-name-addPage", "x-cat-hide"],
+      keywords: ["add", "new", "page", "x-name-add_page", "x-cat-hide"],
       src: "add-page.svg",
       css: "add-page"
     },
