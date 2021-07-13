@@ -13,794 +13,989 @@ module.exports = {
   glyphs_dir: "../svg",
   glyphs: [
     {
-      keywords: ["up", "x-cat-base"],
+      keywords: ["up", "x-name-up", "x-cat-operation"],
       src: "up.svg",
       css: "up"
     },
     {
-      keywords: ["down", "x-cat-base"],
+      keywords: ["down", "x-name-down", "x-cat-operation"],
       src: "down.svg",
       css: "down"
     },
     {
-      keywords: ["left", "x-cat-base"],
+      keywords: ["left", "x-name-left", "x-cat-operation"],
       src: "left.svg",
       css: "left"
     },
     {
-      keywords: ["right", "x-cat-base"],
+      keywords: ["right", "x-name-right", "x-cat-operation"],
       src: "right.svg",
       css: "right"
     },
     {
-      keywords: ["caret", "up", "x-cat-base"],
-      src: "caret-up.svg",
-      css: "caret-up"
-    },
-    {
-      keywords: ["caret", "down", "x-cat-base"],
-      src: "caret-down.svg",
-      css: "caret-down"
-    },
-    {
-      keywords: ["arrow", "up", "x-cat-base"],
-      src: "arrow-up.svg",
-      css: "arrow-up"
-    },
-    {
-      keywords: ["arrow", "down", "x-cat-base"],
-      src: "arrow-down.svg",
-      css: "arrow-down"
-    },
-    {
-      keywords: ["up", "circle", "outline", "x-cat-base"],
-      src: "up-circle-o.svg",
-      css: "up-circle-o"
-    },
-    {
-      keywords: ["up", "circle", "filled", "x-cat-base"],
-      src: "up-circle.svg",
-      css: "up-circle"
-    },
-    {
-      keywords: ["down", "circle", "outline", "x-cat-base"],
-      src: "down-circle-o.svg",
-      css: "down-circle-o"
-    },
-    {
-      keywords: ["down", "circle", "filled", "x-cat-base"],
-      src: "down-circle.svg",
-      css: "down-circle"
-    },
-    {
-      keywords: ["left", "circle", "outline", "x-cat-base"],
-      src: "left-circle-o.svg",
+      keywords: ["left", "circle", "outline", "x-name-left_circle", "x-cat-operation"],
+      src: "left-circle.svg",
       css: "left-circle-o"
     },
     {
-      keywords: ["left", "circle", "filled", "x-cat-base"],
-      src: "left-circle.svg",
+      keywords: ["left", "circle", "filled", "x-name-left_circle_fill", "x-cat-operation"],
+      src: "left-circle-fill.svg",
       css: "left-circle"
     },
     {
-      keywords: ["right", "circle", "outline", "x-cat-base"],
-      src: "right-circle-o.svg",
+      keywords: ["right", "circle", "outline", "x-name-right_circle", "x-cat-operation"],
+      src: "right-circle.svg",
       css: "right-circle-o"
     },
     {
-      keywords: ["right", "circle", "filled", "x-cat-base"],
-      src: "right-circle.svg",
+      keywords: ["right", "circle", "filled", "x-name-right_circle_fill", "x-cat-operation"],
+      src: "right-circle-fill.svg",
       css: "right-circle"
     },
     {
-      keywords: ["check", "x-cat-base"],
-      src: "check.svg",
-      css: "check"
+      keywords: ["up", "circle", "outline", "x-name-up_circle", "x-cat-operation"],
+      src: "up-circle.svg",
+      css: "up-circle-o"
     },
     {
-      keywords: ["check", "circle", "outline", "x-cat-base"],
-      src: "check-circle-o.svg",
-      css: "check-circle-o"
+      keywords: ["up", "circle", "filled", "x-name-up_circle_fill", "x-cat-operation"],
+      src: "up-circle-fill.svg",
+      css: "up-circle"
     },
     {
-      keywords: ["check", "circle", "filled", "x-cat-base"],
-      src: "check-circle.svg",
-      css: "check-circle"
+      keywords: ["down", "circle", "outline", "x-name-down_circle", "x-cat-operation"],
+      src: "down-circle.svg",
+      css: "down-circle-o"
     },
     {
-      keywords: ["close", "naked", "x-cat-base"],
-      src: "close.svg",
-      css: "close"
+      keywords: ["down", "circle", "filled", "x-name-down_circle_fill", "x-cat-operation"],
+      src: "down-circle-fill.svg",
+      css: "down-circle"
     },
     {
-      keywords: ["close", "circle", "outline", "x-cat-base"],
-      src: "close-circle-o.svg",
-      css: "close-circle-o"
-    },
-    {
-      keywords: ["close", "circle", "filled", "x-cat-base"],
-      src: "close-circle.svg",
-      css: "close-circle"
-    },
-    {
-      keywords: ["error", "circle", "outline", "x-cat-base"],
-      src: "tips-circle-o.svg",
-      css: "error-circle-o"
-    },
-    {
-      keywords: ["error", "circle", "filled", "x-cat-base"],
-      src: "tips-circle.svg",
-      css: "error-circle"
-    },
-    {
-      keywords: ["warning", "triangle", "outline", "x-cat-base"],
-      src: "warning-o.svg",
-      css: "warning-o"
-    },
-    {
-      keywords: ["warning", "triangle", "filled", "x-cat-base"],
-      src: "warning.svg",
-      css: "warning"
-    },
-    {
-      keywords: ["info", "circle", "outline", "x-cat-base"],
-      src: "info-circle-o.svg",
-      css: "info-circle-o"
-    },
-    {
-      keywords: ["info", "circle", "filled", "x-cat-base"],
-      src: "info-circle.svg",
-      css: "info-circle"
-    },
-    {
-      keywords: ["help", "circle", "outline", "x-cat-base"],
-      src: "help-circle-o.svg",
-      css: "help-circle-o"
-    },
-    {
-      keywords: ["help", "circle", "filled", "x-cat-base"],
-      src: "help-circle.svg",
-      css: "help-circle"
-    },
-    {
-      keywords: ["pending", "circle", "x-cat-base"],
-      src: "pending-circle.svg",
-      css: "pending-circle"
-    },
-    {
-      keywords: ["clock", "outline", "x-cat-base"],
-      src: "clock-o.svg",
-      css: "clock-o"
-    },
-    {
-      keywords: ["clock", "filled", "x-cat-base"],
-      src: "clock.svg",
-      css: "clock"
-    },
-    {
-      keywords: ["add", "plus", "circle", "outline", "x-cat-base"],
-      src: "plus-circle-o.svg",
-      css: "plus-circle-o"
-    },
-    {
-      keywords: ["add", "plus", "circle", "filled", "x-cat-base"],
-      src: "plus-circle.svg",
-      css: "plus-circle"
-    },
-    {
-      keywords: ["add", "plus", "x-cat-base"],
-      src: "plus.svg",
-      css: "plus"
-    },
-    {
-      keywords: ["add", "new", "page", "x-cat-base"],
-      src: "add-page.svg",
-      css: "add-page"
-    },
-    {
-      keywords: ["minus", "subtract ", "circle", "outline", "x-cat-base"],
-      src: "subtract-circle-o.svg",
-      css: "subtract-circle-o"
-    },
-    {
-      keywords: ["minus", "subtract", "circle", "filled", "x-cat-base"],
-      src: "subtract-circle.svg",
-      css: "subtract-circle"
-    },
-    {
-      keywords: ["forbidden", "circle", "filled", "duplicate", "x-cat-base"],
-      src: "subtract-circle.svg",
-      css: "forbidden-circle"
-    },
-    {
-      keywords: ["search", "x-cat-base"],
-      src: "search.svg",
-      css: "search"
-    },
-    {
-      keywords: ["delete", "remove", "outline", "x-cat-base"],
-      src: "remove.svg",
-      css: "remove-o"
-    },
-    {
-      keywords: ["more", "x-cat-base"],
-      src: "more.svg",
-      css: "more"
-    },
-    {
-      keywords: ["customer-service", "x-cat-base"],
-      src: "customer-service.svg",
-      css: "customer-service"
-    },
-    {
-      keywords: ["hotline", "outline", "x-cat-base"],
-      src: "hotline.svg",
-      css: "hotline-o"
-    },
-    {
-      keywords: ["message", "outline", "x-cat-base"],
-      src: "message-o.svg",
-      css: "message-o"
-    },
-    {
-      keywords: ["message", "filled", "x-cat-base"],
-      src: "message.svg",
-      css: "message"
-    },
-    {
-      keywords: ["bell", "outline", "x-cat-base"],
-      src: "bell-o.svg",
-      css: "bell-o"
-    },
-    {
-      keywords: ["bell", "filled", "x-cat-base"],
-      src: "bell.svg",
-      css: "bell"
-    },
-    {
-      keywords: ["calendar", "outline", "x-cat-base"],
-      src: "calendar-o.svg",
-      css: "calendar-o"
-    },
-    {
-      keywords: ["calendar", "filled", "x-cat-base"],
-      src: "calendar.svg",
-      css: "calendar"
-    },
-    {
-      keywords: ["star", "outline", "x-cat-base"],
-      src: "star-o.svg",
-      css: "star-o"
-    },
-    {
-      keywords: ["star", "filled", "x-cat-base"],
-      src: "star.svg",
-      css: "star"
-    },
-    {
-      keywords: ["lock", "locked", "x-cat-base"],
-      src: "lock.svg",
-      css: "lock"
-    },
-    {
-      keywords: ["unlock", "unlocked", "x-cat-base"],
-      src: "unlock.svg",
-      css: "unlock"
-    },
-    {
-      keywords: ["upload", "filled", "x-cat-base"],
+      keywords: ["upload", "x-name-upload", "x-cat-operation"],
       src: "upload.svg",
       css: "upload"
     },
     {
-      keywords: ["download", "x-cat-base"],
+      keywords: ["download", "x-name-download", "x-cat-operation"],
       src: "download.svg",
       css: "download"
     },
     {
-      keywords: ["export", "filled", "x-cat-base"],
-      src: "export.svg",
-      css: "export"
-    },
-    {
-      keywords: ["share", "x-cat-base"],
-      src: "share.svg",
-      css: "share"
-    },
-    {
-      keywords: ["nav", "line", "x-cat-base"],
-      src: "nav-line.svg",
-      css: "nav-line"
-    },
-    {
-      keywords: ["nav", "grid", "x-cat-base"],
-      src: "nav-grid.svg",
-      css: "nav-grid"
-    },
-    {
-      keywords: ["back", "x-cat-base"],
-      src: "back.svg",
-      css: "back"
-    },
-    {
-      keywords: ["link", "x-cat-base"],
-      src: "link.svg",
-      css: "link"
-    },
-    {
-      keywords: ["qrcode", "x-cat-base"],
-      src: "qr.svg",
-      css: "qrcode"
-    },
-    {
-      keywords: ["edit", "outline", "x-cat-base"],
+      keywords: ["edit", "outline", "x-name-edit", "x-cat-operation"],
       src: "edit.svg",
       css: "edit-o"
     },
     {
-      keywords: ["suggestions", "outline", "x-cat-base"],
-      src: "suggestions.svg",
-      css: "suggestions"
+      keywords: ["edit", "filled", "x-name-edit_fill", "x-cat-operation"],
+      src: "edit-fill.svg",
+      css: "edit"
     },
     {
-      keywords: ["feedback", "x-cat-base"],
-      src: "feedback.svg",
-      css: "feedback"
+      keywords: ["delete", "remove", "outline", "x-name-remove", "x-cat-operation"],
+      src: "remove.svg",
+      css: "remove-o"
     },
     {
-      keywords: ["smile", "x-cat-base"],
-      src: "smile.svg",
-      css: "smile"
+      keywords: ["delete", "remove", "filled", "x-name-remove_fill", "x-cat-operation"],
+      src: "remove-fill.svg",
+      css: "remove"
     },
     {
-      keywords: ["photo", "x-cat-base"],
-      src: "photo.svg",
-      css: "photo"
+      keywords: ["save", "outline", "x-name-save", "x-cat-operation"],
+      src: "save.svg",
+      css: "save-o"
     },
     {
-      keywords: ["tools", "outline", "x-cat-base"],
-      src: "tools.svg",
-      css: "tools-o"
+      keywords: ["save", "filled", "x-name-save_fill", "x-cat-operation"],
+      src: "save-fill.svg",
+      css: "save"
     },
     {
-      keywords: ["doc", "filled", "x-cat-base"],
-      src: "doc.svg",
-      css: "doc"
+      keywords: ["arrow", "up", "x-name-arrow_up", "x-cat-operation"],
+      src: "arrow-up.svg",
+      css: "arrow-up"
     },
     {
-      keywords: ["video", "filled", "x-cat-base"],
-      src: "video.svg",
-      css: "video"
+      keywords: ["arrow", "down", "x-name-arrow_down", "x-cat-operation"],
+      src: "arrow-down.svg",
+      css: "arrow-down"
     },
     {
-      keywords: ["voice", "filled", "x-cat-base"],
-      src: "voice.svg",
-      css: "voice"
+      keywords: ["locked", "outline", "x-name-locked", "x-cat-operation"],
+      src: "lock.svg",
+      css: "locked-o"
     },
     {
-      keywords: ["filter", "outline", "x-cat-base"],
-      src: "filter.svg",
-      css: "filter-o"
+      keywords: ["lock", "outline", "x-name-lock", "x-cat-hide"],
+      src: "lock.svg",
+      css: "lock"
     },
     {
-      keywords: ["refresh", "outline", "x-cat-base"],
+      keywords: ["locked", "filled", "x-name-locked_fill", "x-cat-operation"],
+      src: "lock-fill.svg",
+      css: "locked"
+    },
+    {
+      keywords: ["unlocked", "outline", "x-name-unlocked", "x-cat-operation"],
+      src: "unlock.svg",
+      css: "unlocked-o"
+    },
+    {
+      keywords: ["unlock", "outline", "x-name-unlock", "x-cat-hide"],
+      src: "unlock.svg",
+      css: "unlock"
+    },
+    {
+      keywords: ["unlocked", "filled", "x-name-unlocked_fill", "x-cat-operation"],
+      src: "unlock-fill.svg",
+      css: "unlocked"
+    },
+    {
+      keywords: ["nav", "line", "x-name-nav_line", "x-cat-operation"],
+      src: "nav-line.svg",
+      css: "nav-line"
+    },
+    {
+      keywords: ["nav", "grid", "x-name-nav_grid", "x-cat-operation"],
+      src: "nav-grid.svg",
+      css: "nav-grid"
+    },
+    {
+      keywords: ["share", "x-name-share", "x-cat-operation"],
+      src: "share.svg",
+      css: "share"
+    },
+    {
+      keywords: ["refresh", "outline", "x-name-refresh", "x-cat-operation"],
       src: "refresh.svg",
       css: "refresh"
     },
     {
-      keywords: ["folder", "outline", "x-cat-base"],
-      src: "folder-o.svg",
-      css: "folder-o"
+      keywords: ["help", "circle", "outline", "x-name-help", "x-cat-operation"],
+      src: "help.svg",
+      css: "help-circle-o"
     },
     {
-      keywords: ["open-folder", "outline", "x-cat-base"],
-      src: "open-folder-o.svg",
-      css: "open-folder-o"
+      keywords: ["help", "circle", "filled", "x-name-help_fill", "x-cat-operation"],
+      src: "help-fill.svg",
+      css: "help-circle"
     },
     {
-      keywords: ["save", "outline", "x-cat-base"],
-      src: "save-o.svg",
-      css: "save-o"
+      keywords: ["fullscreen", "thumbnail", "x-name-fullscreen", "x-cat-operation"],
+      src: "fullscreen.svg",
+      css: "thumbnail"
     },
     {
-      keywords: ['drag', 'x-cat-base'],
+      keywords: ["fullscreen", "exit", "x-name-fullscreen_exit", "x-cat-operation"],
+      src: "fullscreen-exit.svg",
+      css: "fullscreen-exit"
+    },
+    {
+      keywords: ["table", "loose", "x-name-table_loose", "x-cat-operation"],
+      src: "table-loose.svg",
+      css: "table-loose"
+    },
+    {
+      keywords: ["table", "compact", "x-name-table_compact", "x-cat-operation"],
+      src: "table-compact.svg",
+      css: "table-compact"
+    },
+    {
+      keywords: ["export", "filled", "x-name-export", "x-cat-operation"],
+      src: "export.svg",
+      css: "export"
+    },
+    {
+      keywords: ["pin", "outline", "x-name-pin", "x-cat-operation"],
+      src: "pin.svg",
+      css: "pin-o"
+    },
+    {
+      keywords: ["pin", "filled", "x-name-pin_fill", "x-cat-operation"],
+      src: "pin-fill.svg",
+      css: "pin"
+    },
+    {
+      keywords: ["eye", "outline", "show", "x-name-show", "x-cat-operation"],
+      src: "show.svg",
+      css: "eye-o"
+    },
+    {
+      keywords: ["eye", "filled", "show", "x-name-show_fill", "x-cat-operation"],
+      src: "show-fill.svg",
+      css: "eye"
+    },
+    {
+      keywords: ["closed-eye", "outline", "hide", "x-name-hide", "x-cat-operation"],
+      src: "hide.svg",
+      css: "closed-eye"
+    },
+    {
+      keywords: ["minus", "subtract ", "circle", "outline", "x-name-subtract_circle", "x-cat-operation"],
+      src: "subtract-circle.svg",
+      css: "subtract-circle-o"
+    },
+    {
+      keywords: ["minus", "subtract", "circle", "filled", "x-name-subtract_circle_fill", "x-cat-operation"],
+      src: "subtract-circle-fill.svg",
+      css: "subtract-circle"
+    },
+    {
+      keywords: ["forbidden", "circle", "filled", "x-name-subtract_circle", "x-cat-hide"],
+      src: "subtract-circle.svg",
+      css: "forbidden-circle"
+    },
+    {
+      keywords: ["add", "plus", "circle", "outline", "x-name-plus_circle", "x-cat-operation"],
+      src: "plus-circle.svg",
+      css: "plus-circle-o"
+    },
+    {
+      keywords: ["add", "plus", "circle", "filled", "x-name-plus_circle_fill", "x-cat-operation"],
+      src: "plus-circle-fill.svg",
+      css: "plus-circle"
+    },
+    {
+      keywords: ["double", "last", "x-name-double_last", "x-cat-operation"],
+      src: "double-last.svg",
+      css: "double-last"
+    },
+    {
+      keywords: ["double", "next", "x-name-double_next", "x-cat-operation"],
+      src: "double-next.svg",
+      css: "double-next"
+    },
+    {
+      keywords: ["add", "plus", "x-name-plus", "x-cat-operation"],
+      src: "plus.svg",
+      css: "plus"
+    },
+    {
+      keywords: ["close", "naked", "x-name-close", "x-cat-operation"],
+      src: "close.svg",
+      css: "close"
+    },
+    {
+      keywords: ["search", "x-name-search", "x-cat-operation"],
+      src: "search.svg",
+      css: "search"
+    },
+    {
+      keywords: ["more", "x-name-more", "x-cat-operation"],
+      src: "more.svg",
+      css: "more"
+    },
+    {
+      keywords: ["pending", "circle", "x-name-pending_circle", "x-cat-hide"],
+      src: "more.svg",
+      css: "pending-circle"
+    },
+    {
+      keywords: ["caret", "up", "ascending", "x-name-ascending", "x-cat-operation"],
+      src: "ascending.svg",
+      css: "caret-up"
+    },
+    {
+      keywords: ["caret", "down", "descending", "x-name-descending", "x-cat-operation"],
+      src: "descending.svg",
+      css: "caret-down"
+    },
+    {
+      keywords: ["reset", "filled", "x-name-reset_fill", "x-cat-operation"],
+      src: "reset-fill.svg",
+      css: "reset"
+    },
+    {
+      keywords: ['drag', 'x-name-drag', 'x-cat-operation'],
       src: 'drag.svg',
       css: 'drag'
     },
     {
-      keywords: ['thumbnail', 'x-cat-base'],
-      src: 'thumbnail.svg',
-      css: 'thumbnail'
+      keywords: ["filter", "outline", "x-name-filter", "x-cat-operation"],
+      src: "filter.svg",
+      css: "filter-o"
     },
     {
-      keywords: ["eye", "outline", "x-cat-base"],
-      src: "eye-o.svg",
-      css: "eye-o"
-    },
-    {
-      keywords: ["eye", "filled", "x-cat-base"],
-      src: "eye.svg",
-      css: "eye"
-    },
-    {
-      keywords: ["closed-eye", "outline", "x-cat-base"],
-      src: "closed-eye.svg",
-      css: "closed-eye"
-    },
-    {
-      keywords: ["summary", "outline", "x-cat-business"],
-      src: "summary-o.svg",
+      keywords: ["summary", "outline", "x-name-summary", "x-cat-business"],
+      src: "summary.svg",
       css: "summary-o"
     },
     {
-      keywords: ["summary", "filled", "x-cat-business"],
-      src: "summary.svg",
+      keywords: ["summary", "filled", "x-name-summary_fill", "x-cat-business"],
+      src: "summary-fill.svg",
       css: "summary"
     },
     {
-      keywords: ["shop", "outline", "x-cat-business"],
-      src: "shop-o.svg",
+      keywords: ["shop", "outline", "x-name-shop", "x-cat-business"],
+      src: "shop.svg",
       css: "shop-o"
     },
     {
-      keywords: ["shop", "filled", "x-cat-business"],
-      src: "shop.svg",
+      keywords: ["shop", "filled", "x-name-shop_fill", "x-cat-business"],
+      src: "shop-fill.svg",
       css: "shop"
     },
     {
-      keywords: ["shop", "template", "filled", "duplicate", "x-cat-business"],
-      src: "shop.svg",
+      keywords: ["shop", "template", "filled", "x-name-shop_template_fill", "x-cat-hide"],
+      src: "shop-fill.svg",
       css: "shop-template"
     },
     {
-      keywords: ["goods", "outline", "x-cat-business"],
-      src: "goods-o.svg",
+      keywords: ["goods", "outline", "x-name-goods", "x-cat-business"],
+      src: "goods.svg",
       css: "goods-o"
     },
     {
-      keywords: ["goods", "filled", "x-cat-business"],
-      src: "goods.svg",
+      keywords: ["goods", "filled", "x-name-goods_fill", "x-cat-business"],
+      src: "goods-fill.svg",
       css: "goods"
     },
     {
-      keywords: ["order", "outline", "x-cat-business"],
-      src: "order-o.svg",
+      keywords: ["order", "outline", "x-name-order", "x-cat-business"],
+      src: "order.svg",
       css: "order-o"
     },
     {
-      keywords: ["order", "filled", "x-cat-business"],
-      src: "order.svg",
+      keywords: ["order", "filled", "x-name-order_fill", "x-cat-business"],
+      src: "order-fill.svg",
       css: "order"
     },
     {
-      keywords: ["customer", "outline", "x-cat-business"],
-      src: "customer-o.svg",
+      keywords: ["customer", "outline", "x-name-customer", "x-cat-business"],
+      src: "customer.svg",
       css: "customer-o"
     },
     {
-      keywords: ["customer", "filled", "x-cat-business"],
-      src: "customer.svg",
+      keywords: ["customer", "filled", "x-name-customer_fill", "x-cat-business"],
+      src: "customer-fill.svg",
       css: "customer"
     },
     {
-      keywords: ["data", "chart", "outline", "x-cat-business"],
-      src: "chart-o.svg",
+      keywords: ["data", "chart", "outline", "x-name-chart", "x-cat-business"],
+      src: "chart.svg",
       css: "chart-o"
     },
     {
-      keywords: ["data", "chart", "filled", "x-cat-business"],
-      src: "chart.svg",
+      keywords: ["data", "chart", "filled", "x-name-chart_fill", "x-cat-business"],
+      src: "chart-fill.svg",
       css: "chart"
     },
     {
-      keywords: ["capital", "outline", "x-cat-business"],
-      src: "capital-o.svg",
+      keywords: ["capital", "outline", "x-name-capital", "x-cat-business"],
+      src: "capital.svg",
       css: "capital-o"
     },
     {
-      keywords: ["capital", "filled", "x-cat-business"],
-      src: "capital.svg",
+      keywords: ["capital", "filled", "x-name-capital_fill", "x-cat-business"],
+      src: "capital-fill.svg",
       css: "capital"
     },
     {
-      keywords: ["casher", "duplicate", "x-cat-business"],
-      src: "casher.svg",
-      css: "casher"
-    },
-    {
-      keywords: ["cashier", "x-cat-business"],
-      src: "casher.svg",
-      css: "cashier"
-    },
-    {
-      keywords: ["marketing", "x-cat-business"],
-      src: "marketing.svg",
-      css: "marketing"
-    },
-    {
-      keywords: ["settings", "outline", "x-cat-business"],
-      src: "settings-o.svg",
+      keywords: ["settings", "outline", "x-name-settings", "x-cat-business"],
+      src: "settings.svg",
       css: "settings-o"
     },
     {
-      keywords: ["settings", "filled", "x-cat-business"],
-      src: "settings.svg",
+      keywords: ["settings", "filled", "x-name-settings_fill", "x-cat-business"],
+      src: "settings-fill.svg",
       css: "settings"
     },
     {
-      keywords: ["countdown", "x-cat-business"],
-      src: "countdown.svg",
-      css: "countdown"
+      keywords: ["marketing", "outline", "x-name-marketing", "x-cat-business"],
+      src: "marketing.svg",
+      css: "marketing-o"
     },
     {
-      keywords: ["shop", "decorate", "x-cat-business"],
-      src: "shop-decorate.svg",
-      css: "shop-decorate"
+      keywords: ["marketing", "filled", "x-name-marketing_fill", "x-cat-business"],
+      src: "marketing-fill.svg",
+      css: "marketing"
     },
     {
-      keywords: ["gift", "x-cat-business"],
+      keywords: ["inventory", "outline", "x-name-inventory", "x-cat-business"],
+      src: "inventory.svg",
+      css: "inventory-o"
+    },
+    {
+      keywords: ["inventory", "filled", "x-name-inventory_fill", "x-cat-business"],
+      src: "inventory-fill.svg",
+      css: "inventory"
+    },
+    {
+      keywords: ["procurement", "outline", "x-name-procurement", "x-cat-business"],
+      src: "procurement.svg",
+      css: "procurement-o"
+    },
+    {
+      keywords: ["procurement", "filled", "x-name-procurement_fill", "x-cat-business"],
+      src: "procurement-fill.svg",
+      css: "procurement"
+    },
+    {
+      keywords: ["finance", "outline", "x-name-finance", "x-cat-business"],
+      src: "finance.svg",
+      css: "finance-o"
+    },
+    {
+      keywords: ["finance", "filled", "x-name-finance_fill", "x-cat-business"],
+      src: "finance-fill.svg",
+      css: "finance"
+    },
+    {
+      keywords: ["cashier", "outline", "x-name-cashier", "x-cat-business"],
+      src: "cashier.svg",
+      css: "cashier-o"
+    },
+    {
+      keywords: ["cashier", "filled", "x-name-cashier_fill", "x-cat-business"],
+      src: "cashier-fill.svg",
+      css: "cashier"
+    },
+    {
+      keywords: ["casher", "x-name-casher", "x-cat-hide"],
+      src: "cashier-fill.svg",
+      css: "casher"
+    },
+    {
+      keywords: ["course", "outline", "x-name-course", "x-cat-business"],
+      src: "course.svg",
+      css: "course-o"
+    },
+    {
+      keywords: ["course", "filled", "x-name-course_fill", "x-cat-business"],
+      src: "course-fill.svg",
+      css: "course"
+    },
+    {
+      keywords: ["admissions", "outline", "x-name-admissions", "x-cat-business"],
+      src: "admissions.svg",
+      css: "admissions-o"
+    },
+    {
+      keywords: ["admissions", "filled", "x-name-admissions_fill", "x-cat-business"],
+      src: "admissions-fill.svg",
+      css: "admissions"
+    },
+    {
+      keywords: ["educational", "outline", "x-name-educational", "x-cat-business"],
+      src: "educational.svg",
+      css: "educational-o"
+    },
+    {
+      keywords: ["educational", "filled", "x-name-educational_fill", "x-cat-business"],
+      src: "educational-fill.svg",
+      css: "educational"
+    },
+    {
+      keywords: ["customer-service", "outline", "x-name-service", "x-cat-business"],
+      src: "service.svg",
+      css: "customer-service-o"
+    },
+    {
+      keywords: ["customer-service", "filled", "x-name-service_fill", "x-cat-business"],
+      src: "service-fill.svg",
+      css: "customer-service"
+    },
+    {
+      keywords: ["message", "outline", "x-name-message", "x-cat-business"],
+      src: "message.svg",
+      css: "message-o"
+    },
+    {
+      keywords: ["message", "filled", "x-name-message_fill", "x-cat-business"],
+      src: "message-fill.svg",
+      css: "message"
+    },
+    {
+      keywords: ["jump-out", "x-name-jump_out", "x-cat-business"],
+      src: "jump-out.svg",
+      css: "jump-out"
+    },
+    {
+      keywords: ["sign-out", "x-name-sign_out", "x-cat-business"],
+      src: "sign-out.svg",
+      css: "sign-out"
+    },
+    {
+      keywords: ["check", "circle", "outline", "success", "x-name-success_circle", "x-cat-status"],
+      src: "success-circle.svg",
+      css: "check-circle-o"
+    },
+    {
+      keywords: ["check", "circle", "filled", "success", "x-name-success_circle_fill", "x-cat-status"],
+      src: "success-circle-fill.svg",
+      css: "check-circle"
+    },
+    {
+      keywords: ["error", "circle", "outline", "x-name-error_circle", "x-cat-status"],
+      src: "error-circle.svg",
+      css: "close-circle-o"
+    },
+    {
+      keywords: ["error", "circle", "filled", "x-name-error_circle_fill", "x-cat-status"],
+      src: "error-circle-fill.svg",
+      css: "close-circle"
+    },
+    {
+      keywords: ["warning", "circle", "outline", "x-name-warning_circle", "x-cat-status"],
+      src: "warning-circle.svg",
+      css: "error-circle-o"
+    },
+    {
+      keywords: ["warning", "circle", "filled", "x-name-warning_circle_fill", "x-cat-status"],
+      src: "warning-circle-fill.svg",
+      css: "error-circle"
+    },
+    {
+      keywords: ["info", "circle", "outline", "x-name-info_circle", "x-cat-status"],
+      src: "info-circle.svg",
+      css: "info-circle-o"
+    },
+    {
+      keywords: ["info", "circle", "filled", "x-name-info_circle_fill", "x-cat-status"],
+      src: "info-circle-fill.svg",
+      css: "info-circle"
+    },
+    {
+      keywords: ["loading", "x-name-loading", "x-cat-status"],
+      src: "loading.svg",
+      css: "loading"
+    },
+    {
+      keywords: ["wait", "filled", "x-name-wait_fill", "x-cat-status"],
+      src: "wait-fill.svg",
+      css: "wait"
+    },
+    {
+      keywords: ["star", "outline", "x-name-star", "x-cat-status"],
+      src: "star.svg",
+      css: "star-o"
+    },
+    {
+      keywords: ["star", "filled", "x-name-star_fill", "x-cat-status"],
+      src: "star-fill.svg",
+      css: "star"
+    },
+    {
+      keywords: ["bell", "outline", "x-name-bell", "x-cat-status"],
+      src: "bell.svg",
+      css: "bell-o"
+    },
+    {
+      keywords: ["bell", "filled", "x-name-bell_fill", "x-cat-status"],
+      src: "bell-fill.svg",
+      css: "bell"
+    },
+    {
+      keywords: ["check", "x-name-check", "x-cat-status"],
+      src: "check.svg",
+      css: "check"
+    },
+    {
+      keywords: ["youzan", "logo", "outline", "x-name-youzan", "x-cat-logo"],
+      src: "youzan.svg",
+      css: "youzan-o"
+    },
+    {
+      keywords: ["youzan", "logo", "filled", "x-name-youzan_fill", "x-cat-logo"],
+      src: "youzan-fill.svg",
+      css: "youzan"
+    },
+    {
+      keywords: ["wechat", "miniapp", "outline", "x-name-mini_apps", "x-cat-logo"],
+      src: "mini-apps.svg",
+      css: "mini-apps-o"
+    },
+    {
+      keywords: ["wechat", "miniapp", "filled", "x-name-mini_apps_fill", "x-cat-logo"],
+      src: "mini-apps-fill.svg",
+      css: "mini-apps"
+    },
+    {
+      keywords: ["wechat", "outline", "x-name-wechat", "x-cat-logo"],
+      src: "wechat.svg",
+      css: "wechat-o"
+    },
+    {
+      keywords: ["wechat", "filled", "x-name-wechat_fill", "x-cat-logo"],
+      src: "wechat-fill.svg",
+      css: "wechat"
+    },
+    {
+      keywords: ["clock", "outline", "x-name-clock", "x-cat-base"],
+      src: "clock.svg",
+      css: "clock-o"
+    },
+    {
+      keywords: ["clock", "filled", "x-name-clock_fill", "x-cat-base"],
+      src: "clock-fill.svg",
+      css: "clock"
+    },
+    {
+      keywords: ["calendar", "outline", "x-name-calendar", "x-cat-base"],
+      src: "calendar.svg",
+      css: "calendar-o"
+    },
+    {
+      keywords: ["calendar", "filled", "x-name-calendar_fill", "x-cat-base"],
+      src: "calendar-fill.svg",
+      css: "calendar"
+    },
+    {
+      keywords: ["present", "outline", "x-name-present", "x-cat-base"],
+      src: "gift.svg",
+      css: "present-o"
+    },
+    {
+      keywords: ["gift", "outline", "x-name-gift", "x-cat-hide"],
       src: "gift.svg",
       css: "gift"
     },
     {
-      keywords: ["business", "outline", "x-cat-business"],
-      src: "business-o.svg",
-      css: "business-o"
+      keywords: ["present", "filled", "x-name-present_fill", "x-cat-base"],
+      src: "gift-fill.svg",
+      css: "present"
     },
     {
-      keywords: ["business", "filled", "x-cat-business"],
-      src: "business.svg",
-      css: "business"
-    },
-    {
-      keywords: ["approval", "outline", "x-cat-business"],
-      src: "approval-o.svg",
-      css: "approval-o"
-    },
-    {
-      keywords: ["approval", "filled", "x-cat-business"],
-      src: "approval.svg",
-      css: "approval"
-    },
-    {
-      keywords: ["ticket", "outline", "x-cat-business"],
-      src: "ticket-o.svg",
+      keywords: ["ticket", "outline", "x-name-ticket", "x-cat-base"],
+      src: "ticket.svg",
       css: "ticket-o"
     },
     {
-      keywords: ["ticket", "filled", "x-cat-business"],
-      src: "ticket.svg",
+      keywords: ["ticket", "filled", "x-name-ticket_fill", "x-cat-base"],
+      src: "ticket-fill.svg",
       css: "ticket"
     },
     {
-      keywords: ["report", "outline", "x-cat-business"],
-      src: "report-o.svg",
-      css: "report-o"
-    },
-    {
-      keywords: ["report", "filled", "x-cat-business"],
-      src: "report.svg",
-      css: "report"
-    },
-    {
-      keywords: ["expand", "customer", "outline", "x-cat-business"],
-      src: "expand-customer-o.svg",
+      keywords: ["expand", "customer", "outline", "x-name-expand_customer", "x-cat-base"],
+      src: "expand-customer.svg",
       css: "expand-customer-o"
     },
     {
-      keywords: ["expand", "customer", "filled", "x-cat-business"],
-      src: "expand-customer.svg",
+      keywords: ["expand", "customer", "filled", "x-name-expand_customer_fill", "x-cat-base"],
+      src: "expand-customer-fill.svg",
       css: "expand-customer"
     },
     {
-      keywords: ["checkin", "outline", "x-cat-business"],
-      src: "checkin-o.svg",
+      keywords: ["checkin", "outline", "x-name-checkin", "x-cat-base"],
+      src: "checkin.svg",
       css: "checkin-o"
     },
     {
-      keywords: ["checkin", "filled", "x-cat-business"],
-      src: "checkin.svg",
+      keywords: ["checkin", "filled", "x-name-checkin_fill", "x-cat-base"],
+      src: "checkin-fill.svg",
       css: "checkin"
     },
     {
-      keywords: ["assess", "outline", "x-cat-business"],
-      src: "assess-o.svg",
+      keywords: ["assess", "outline", "x-name-assess", "x-cat-base"],
+      src: "assess.svg",
       css: "assess-o"
     },
     {
-      keywords: ["assess", "filled", "x-cat-business"],
-      src: "assess.svg",
+      keywords: ["assess", "filled", "x-name-assess_fill", "x-cat-base"],
+      src: "assess-fill.svg",
       css: "assess"
     },
     {
-      keywords: ["human resource", "outline", "x-cat-business"],
-      src: "hr-o.svg",
+      keywords: ["business", "outline", "x-name-business", "x-cat-base"],
+      src: "business.svg",
+      css: "business-o"
+    },
+    {
+      keywords: ["business", "filled", "x-name-business_fill", "x-cat-base"],
+      src: "business-fill.svg",
+      css: "business"
+    },
+    {
+      keywords: ["human resource", "outline", "x-name-hr", "x-cat-base"],
+      src: "hr.svg",
       css: "hr-o"
     },
     {
-      keywords: ["human resource", "filled", "x-cat-business"],
-      src: "hr.svg",
+      keywords: ["human resource", "filled", "x-name-hr_fill", "x-cat-base"],
+      src: "hr-fill.svg",
       css: "hr"
     },
     {
-      keywords: ["hc-manage", "outline", "x-cat-business"],
-      src: "hc-manage-o.svg",
+      keywords: ["approval", "outline", "x-name-approval", "x-cat-base"],
+      src: "approval.svg",
+      css: "approval-o"
+    },
+    {
+      keywords: ["approval", "filled", "x-name-approval_fill", "x-cat-base"],
+      src: "approval-fill.svg",
+      css: "approval"
+    },
+    {
+      keywords: ["report", "outline", "x-name-report", "x-cat-base"],
+      src: "report.svg",
+      css: "report-o"
+    },
+    {
+      keywords: ["report", "filled", "x-name-report_fill", "x-cat-base"],
+      src: "report-fill.svg",
+      css: "report"
+    },
+    {
+      keywords: ["coupon", "outline", "x-name-coupon", "x-cat-base"],
+      src: "coupon.svg",
+      css: "coupon-o"
+    },
+    {
+      keywords: ["coupon", "filled", "x-name-coupon_fill", "x-cat-base"],
+      src: "coupon-fill.svg",
+      css: "coupon"
+    },
+    {
+      keywords: ["hc-manage", "outline", "x-name-hc_manage", "x-cat-base"],
+      src: "hc-manage.svg",
       css: "hc-manage-o"
     },
     {
-      keywords: ["hc-manage", "filled", "x-cat-business"],
-      src: "hc-manage.svg",
+      keywords: ["hc-manage", "filled", "x-name-hc_manage_fill", "x-cat-base"],
+      src: "hc-manage-fill.svg",
       css: "hc-manage"
     },
     {
-      keywords: ["visit", "outline", "x-cat-business"],
-      src: "visit.svg",
-      css: "visit-o"
+      keywords: ["report", "forms", "outline", "x-name-report_forms", "x-cat-base"],
+      src: "report-forms.svg",
+      css: "report-forms-o"
     },
     {
-      keywords: ["im", "outline", "x-cat-business"],
-      src: "im.svg",
-      css: "im-o"
+      keywords: ["report", "forms", "filled", "x-name-report_forms_fill", "x-cat-base"],
+      src: "report-forms-fill.svg",
+      css: "report-forms"
     },
     {
-      keywords: ["knowledge", "outline", "x-cat-business"],
+      keywords: ["brush", "outline", "x-name-brush", "x-cat-base"],
+      src: "shop-decorate.svg",
+      css: "brush-o"
+    },
+    {
+      keywords: ["shop", "decorate", "outline", "x-name-shop_decorate", "x-cat-hide"],
+      src: "shop-decorate.svg",
+      css: "shop-decorate"
+    },
+    {
+      keywords: ["brush", "filled", "x-name-brush_fill", "x-cat-base"],
+      src: "shop-decorate-fill.svg",
+      css: "brush"
+    },
+    {
+      keywords: ["development", "doc", "outline", "x-name-development_doc", "x-cat-base"],
+      src: "development-doc.svg",
+      css: "development-doc-o"
+    },
+    {
+      keywords: ["development", "doc", "filled", "x-name-development_doc_fill", "x-cat-base"],
+      src: "development-doc-fill.svg",
+      css: "development-doc"
+    },
+    {
+      keywords: ["bookmark", "outline", "x-name-bookmark", "x-cat-base"],
+      src: "knowledge.svg",
+      css: "bookmark-o"
+    },
+    {
+      keywords: ["knowledge", "outline", "x-name-knowledge", "x-cat-hide"],
       src: "knowledge.svg",
       css: "knowledge-o"
     },
     {
-      keywords: ["resource", "flow", "outline", "x-cat-business"],
-      src: "flow.svg",
-      css: "flow-o"
+      keywords: ["bookmark", "filled", "x-name-bookmark_fill", "x-cat-base"],
+      src: "knowledge-fill.svg",
+      css: "bookmark"
     },
     {
-      keywords: ["strategy", "outline", "x-cat-business"],
-      src: "strategy-o.svg",
-      css: "strategy-o"
+      keywords: ["folder", "outline", "x-name-folder", "x-cat-base"],
+      src: "folder.svg",
+      css: "folder-o"
     },
     {
-      keywords: ["contract", "outline", "x-cat-business"],
-      src: "contract.svg",
-      css: "contract-o"
+      keywords: ["open-folder", "outline", "x-name-open_folder", "x-cat-base"],
+      src: "open-folder.svg",
+      css: "open-folder-o"
     },
     {
-      keywords: ["channel", "outline", "x-cat-business"],
-      src: "channel.svg",
-      css: "channel-o"
-    },
-    {
-      keywords: ["quality", "assurance", "outline", "x-cat-business"],
-      src: "qa.svg",
-      css: "qa-o"
-    },
-    {
-      keywords: ["rights-list", "outline", "x-cat-business"],
-      src: "rights-list.svg",
-      css: "rights-list-o"
-    },
-    {
-      keywords: ["report", "forms", "outline", "x-cat-business"],
-      src: "report-forms-o.svg",
-      css: "report-forms-o"
-    },
-    {
-      keywords: ["report", "forms", "filled", "x-cat-business"],
-      src: "report-forms.svg",
-      css: "report-forms"
-    },
-    {
-      keywords: ["coupon", "outline", "x-cat-business"],
-      src: "coupon-o.svg",
-      css: "coupon-o"
-    },
-    {
-      keywords: ["coupon", "filled", "x-cat-business"],
-      src: "coupon.svg",
-      css: "coupon"
-    },
-    {
-      keywords: ["inventory", "outline", "x-cat-business"],
-      src: "inventory-o.svg",
-      css: "inventory-o"
-    },
-    {
-      keywords: ["inventory", "filled", "x-cat-business"],
-      src: "inventory.svg",
-      css: "inventory"
-    },
-    {
-      keywords: ["procurement", "outline", "x-cat-business"],
-      src: "procurement-o.svg",
-      css: "procurement-o"
-    },
-    {
-      keywords: ["procurement", "filled", "x-cat-business"],
-      src: "procurement.svg",
-      css: "procurement"
-    },
-    {
-      keywords: ["development", "doc", "x-cat-business"],
-      src: "development-doc.svg",
-      css: "development-doc"
-    },
-    {
-      keywords: ["shop", "analyze", "outline", "x-cat-business"],
-      src: "shop-analyze.svg",
-      css: "shop-analyze-o"
-    },
-    {
-      keywords: ["cashier", "desk", "outline", "x-cat-business"],
-      src: "cashier-desk.svg",
-      css: "cashier-desk-o"
-    },
-    {
-      keywords: ["withdraw", "cash", "outline", "x-cat-business"],
-      src: "withdraw-cash.svg",
-      css: "withdraw-cash-o"
-    },
-    {
-      keywords: ["payment", "pending", "outline", "x-cat-business"],
+      keywords: ["payment", "pending", "outline", "x-name-pending_payment", "x-cat-base"],
       src: "pending-payment.svg",
       css: "pending-payment-o"
     },
     {
-      keywords: ["salesman", "outline", "x-cat-business"],
+      keywords: ["salesman", "outline", "x-name-salesman", "x-cat-base"],
       src: "salesman.svg",
       css: "salesman-o"
     },
     {
-      keywords: ["tendency", "outline", "x-cat-business"],
+      keywords: ["tendency", "outline", "x-name-tendency", "x-cat-base"],
       src: "tendency.svg",
       css: "tendency-o"
     },
     {
-      keywords: ["distribution", "outline", "x-cat-business"],
+      keywords: ["distribution", "outline", "x-name-distribution", "x-cat-base"],
       src: "distribution.svg",
       css: "distribution-o"
     },
     {
-      keywords: ["member", "outline", "x-cat-business"],
+      keywords: ["member", "outline", "x-name-member", "x-cat-base"],
       src: "member.svg",
       css: "member-o"
     },
     {
-      keywords: ["video-guide", "outline", "guide", "x-cat-business"],
-      src: "video-guide.svg",
-      css: "video-guide-o"
-    },
-    {
-      keywords: ["text-guide", "outline", "guide", "x-cat-business"],
+      keywords: ["text-guide", "outline", "guide", "x-name-text_guide", "x-cat-base"],
       src: "text-guide.svg",
       css: "text-guide-o"
     },
     {
-      keywords: ["scan-code", "outline", "x-cat-business"],
+      keywords: ["qrcode", "x-name-qrcode", "x-cat-base"],
+      src: "qrcode.svg",
+      css: "qrcode"
+    },
+    {
+      keywords: ["shop", "analyze", "outline", "x-name-shop_analyze", "x-cat-base"],
+      src: "shop-analyze.svg",
+      css: "shop-analyze-o"
+    },
+    {
+      keywords: ["channel", "outline", "x-name-channel", "x-cat-base"],
+      src: "channel.svg",
+      css: "channel-o"
+    },
+    {
+      keywords: ["cashier", "desk", "outline", "x-name-cashier_desk", "x-cat-base"],
+      src: "cashier-desk.svg",
+      css: "cashier-desk-o"
+    },
+    {
+      keywords: ["quality", "assurance", "outline", "x-name-qa", "x-cat-base"],
+      src: "qa.svg",
+      css: "qa-o"
+    },
+    {
+      keywords: ["withdraw", "cash", "outline", "x-name-withdraw_cash", "x-cat-base"],
+      src: "withdraw-cash.svg",
+      css: "withdraw-cash-o"
+    },
+    {
+      keywords: ["tools", "outline", "x-name-tools", "x-cat-base"],
+      src: "tools.svg",
+      css: "tools-o"
+    },
+    {
+      keywords: ["smile", "x-name-smile", "x-cat-base"],
+      src: "smile.svg",
+      css: "smile"
+    },
+    {
+      keywords: ["photo", "x-name-photo", "x-cat-base"],
+      src: "photo.svg",
+      css: "photo"
+    },
+    {
+      keywords: ["video", "outline", "x-name-video", "x-cat-base"],
+      src: "video.svg",
+      css: "video-o"
+    },
+    {
+      keywords: ["video-guide", "outline", "guide", "x-cat-hide"],
+      src: "video.svg",
+      css: "video-guide-o"
+    },
+    {
+      keywords: ["video", "filled", "x-name-video_fill", "x-cat-base"],
+      src: "video-fill.svg",
+      css: "video"
+    },
+    {
+      keywords: ["hotline", "outline", "x-name-hotline", "x-cat-base"],
+      src: "hotline.svg",
+      css: "hotline-o"
+    },
+    {
+      keywords: ["visit", "outline", "x-name-visit", "x-cat-base"],
+      src: "visit.svg",
+      css: "visit-o"
+    },
+    {
+      keywords: ["countdown", "x-name-countdown", "x-cat-base"],
+      src: "countdown.svg",
+      css: "countdown"
+    },
+    {
+      keywords: ["suggestions", "outline", "x-name-suggestions", "x-cat-base"],
+      src: "suggestions.svg",
+      css: "suggestions"
+    },
+    {
+      keywords: ["feedback", "x-name-feedback", "x-cat-base"],
+      src: "feedback.svg",
+      css: "feedback"
+    },
+    {
+      keywords: ["contract", "outline", "x-name-contract", "x-cat-base"],
+      src: "contract.svg",
+      css: "contract-o"
+    },
+    {
+      keywords: ["rights-list", "outline", "x-name-rights_list", "x-cat-base"],
+      src: "right-list.svg",
+      css: "rights-list-o"
+    },
+    {
+      keywords: ["im", "outline", "x-name-im", "x-cat-base"],
+      src: "im.svg",
+      css: "im-o"
+    },
+    {
+      keywords: ["resource", "flow", "outline", "x-name-resource", "x-cat-base"],
+      src: "flow.svg",
+      css: "flow-o"
+    },
+    {
+      keywords: ["strategy", "outline", "x-name-strategy", "x-cat-base"],
+      src: "strategy.svg",
+      css: "strategy-o"
+    },
+    {
+      keywords: ["link", "x-name-link", "x-cat-base"],
+      src: "link.svg",
+      css: "link"
+    },
+    {
+      keywords: ["voice", "filled", "x-name-voice_fill", "x-cat-base"],
+      src: "voice-fill.svg",
+      css: "voice"
+    },
+    {
+      keywords: ["scan-code", "outline", "x-name-scan_code", "x-cat-base"],
       src: "scan-code.svg",
       css: "scan-code-o"
     },
     {
-      keywords: ["youzan", "logo", "outline", "x-cat-logo"],
-      src: "youzan-o.svg",
-      css: "youzan-o"
+      keywords: ["doc", "filled", "x-name-doc", "x-cat-base"],
+      src: "doc.svg",
+      css: "doc"
     },
     {
-      keywords: ["youzan", "logo", "filled", "x-cat-logo"],
-      src: "youzan.svg",
-      css: "youzan"
+      keywords: ["warning", "triangle", "outline", "x-name-warning", "x-cat-hide"],
+      src: "warning.svg",
+      css: "warning-o"
     },
     {
-      keywords: ["wechat", "miniapp", "outline", "x-cat-logo"],
-      src: "mini-apps-o.svg",
-      css: "mini-apps-o"
+      keywords: ["warning", "triangle", "filled", "x-name-warning_fill", "x-cat-hide"],
+      src: "warning-fill.svg",
+      css: "warning"
     },
     {
-      keywords: ["wechat", "miniapp", "filled", "x-cat-logo"],
-      src: "mini-apps.svg",
-      css: "mini-apps"
+      keywords: ["add", "new", "page", "x-name-add_page", "x-cat-hide"],
+      src: "add-page.svg",
+      css: "add-page"
     },
     {
-      keywords: ["wechat", "filled", "x-cat-logo"],
-      src: "wechat.svg",
-      css: "wechat"
-    }
+      keywords: ["back", "x-name-back", "x-cat-hide"],
+      src: "back.svg",
+      css: "back"
+    },
   ]
 };
