@@ -288,6 +288,11 @@ module.exports = {
       css: "more"
     },
     {
+      keywords: ["pending", "circle", "x-name-pendingCircle", "x-cat-hide"],
+      src: "more.svg",
+      css: "pending-circle"
+    },
+    {
       keywords: ["caret", "up", "ascending", "x-name-ascending", "x-cat-operation"],
       src: "ascending.svg",
       css: "caret-up"
@@ -795,7 +800,7 @@ module.exports = {
     {
       keywords: ["knowledge", "outline", "x-name-knowledge", "x-cat-hide"],
       src: "knowledge.svg",
-      css: "knowledge"
+      css: "knowledge-o"
     },
     {
       keywords: ["bookmark", "filled", "x-name-bookmarkFilled", "x-cat-base"],
@@ -893,6 +898,11 @@ module.exports = {
       css: "video-o"
     },
     {
+      keywords: ["video-guide", "outline", "guide", "x-cat-hide"],
+      src: "video.svg",
+      css: "video-guide-o"
+    },
+    {
       keywords: ["video", "filled", "x-name-videoFilled", "x-cat-base"],
       src: "video-fill.svg",
       css: "video"
@@ -946,6 +956,11 @@ module.exports = {
       keywords: ["strategy", "outline", "x-name-strategy", "x-cat-base"],
       src: "strategy.svg",
       css: "strategy-o"
+    },
+    {
+      keywords: ["link", "x-name-link", "x-cat-base"],
+      src: "link.svg",
+      css: "link"
     },
     {
       keywords: ["voice", "filled", "x-name-voiceFilled", "x-cat-base"],
