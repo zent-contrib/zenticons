@@ -518,6 +518,16 @@ module.exports = {
       css: "sign-out"
     },
     {
+      keywords: ["hotel", "outline", "x-name-hotel", "x-cat-business"],
+      src: "hotel.svg",
+      css: "hotel-o"
+    },
+    {
+      keywords: ["hotel", "filled", "x-name-hotel_fill", "x-cat-business"],
+      src: "hotel_fill.svg",
+      css: "hotel"
+    },
+    {
       keywords: ["check", "circle", "outline", "success", "x-name-success_circle", "x-cat-status"],
       src: "success-circle.svg",
       css: "check-circle-o"
