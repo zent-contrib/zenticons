@@ -524,7 +524,7 @@ module.exports = {
     },
     {
       keywords: ["hotel", "filled", "x-name-hotel_fill", "x-cat-business"],
-      src: "hotel_fill.svg",
+      src: "hotel-fill.svg",
       css: "hotel"
     },
     {
