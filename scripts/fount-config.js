@@ -548,12 +548,12 @@ module.exports = {
       css: "close-circle"
     },
     {
-      keywords: ["warning", "circle", "outline", "x-name-warning_circle", "x-cat-status"],
+      keywords: ["warning", "circle", "outline", "x-name-warning_circle", "x-cat-hide"],
       src: "warning-circle.svg",
       css: "error-circle-o"
     },
     {
-      keywords: ["warning", "circle", "filled", "x-name-warning_circle_fill", "x-cat-status"],
+      keywords: ["warning", "circle", "filled", "x-name-warning_circle_fill", "x-cat-hide"],
       src: "warning-circle-fill.svg",
       css: "error-circle"
     },
@@ -988,12 +988,12 @@ module.exports = {
       css: "doc"
     },
     {
-      keywords: ["warning", "triangle", "outline", "x-name-warning", "x-cat-hide"],
+      keywords: ["warning", "triangle", "outline", "x-name-warning", "x-cat-status"],
       src: "warning.svg",
       css: "warning-o"
     },
     {
-      keywords: ["warning", "triangle", "filled", "x-name-warning_fill", "x-cat-hide"],
+      keywords: ["warning", "triangle", "filled", "x-name-warning_fill", "x-cat-status"],
       src: "warning-fill.svg",
       css: "warning"
     },
