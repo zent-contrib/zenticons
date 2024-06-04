@@ -528,6 +528,76 @@ module.exports = {
       css: "hotel"
     },
     {
+      keywords: ["customer", "manage", "customer-manage", "outline", "x-name-customer-manage", "x-cat-business"],
+      src: "customer-manage.svg",
+      css: "customer-manage-o"
+    },
+    {
+      keywords: ["customer", "manage", "customer-manage", "filled", "x-name-customer-manage_fill", "x-cat-business"],
+      src: "customer-manage-fill.svg",
+      css: "customer-manage"
+    },
+    {
+      keywords: ["purchase", "outline", "x-name-purchase", "x-cat-business"],
+      src: "purchase.svg",
+      css: "purchase-o"
+    },
+    {
+      keywords: ["purchase", "filled", "x-name-purchase_fill", "x-cat-business"],
+      src: "purchase-fill.svg",
+      css: "purchase"
+    },
+    {
+      keywords: ["target", "outline", "x-name-target", "x-cat-business"],
+      src: "target.svg",
+      css: "target-o"
+    },
+    {
+      keywords: ["target", "filled", "x-name-target_fill", "x-cat-business"],
+      src: "target-fill.svg",
+      css: "target"
+    },
+    {
+      keywords: ["care", "outline", "x-name-care", "x-cat-business"],
+      src: "care.svg",
+      css: "care-o"
+    },
+    {
+      keywords: ["care", "filled", "x-name-care_fill", "x-cat-business"],
+      src: "care-fill.svg",
+      css: "care"
+    },
+    {
+      keywords: ["nameplate", "outline", "x-name-nameplate", "x-cat-business"],
+      src: "nameplate.svg",
+      css: "nameplate-o"
+    },
+    {
+      keywords: ["nameplate", "filled", "x-name-nameplate_fill", "x-cat-business"],
+      src: "nameplate-fill.svg",
+      css: "nameplate"
+    },
+    {
+      keywords: ["smile", "scrm-smile", "outline", "x-name-scrm-smile", "x-cat-business"],
+      src: "scrm-smile.svg",
+      css: "scrm-smile-o"
+    },
+    {
+      keywords: ["smile", "scrm-smile", "filled", "x-name-scrm-smile_fill", "x-cat-business"],
+      src: "scrm-smile-fill.svg",
+      css: "scrm-smile"
+    },
+    {
+      keywords: ["canvas", "outline", "x-name-canvas", "x-cat-business"],
+      src: "canvas.svg",
+      css: "canvas-o"
+    },
+    {
+      keywords: ["canvas", "filled", "x-name-canvas_fill", "x-cat-business"],
+      src: "canvas-fill.svg",
+      css: "canvas"
+    },
+    {
       keywords: ["check", "circle", "outline", "success", "x-name-success_circle", "x-cat-status"],
       src: "success-circle.svg",
       css: "check-circle-o"
