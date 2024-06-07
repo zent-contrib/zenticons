@@ -598,6 +598,16 @@ module.exports = {
       css: "canvas"
     },
     {
+      keywords: ["business", "manage", "business-manage", "outline", "x-name-business-manage", "x-cat-business"],
+      src: "business-manage.svg",
+      css: "business-manage-o"
+    },
+    {
+      keywords: ["business", "manage", "business-manage", "filled", "x-name-business-manage_fill", "x-cat-business"],
+      src: "business-manage-fill.svg",
+      css: "business-manage"
+    },
+    {
       keywords: ["check", "circle", "outline", "success", "x-name-success_circle", "x-cat-status"],
       src: "success-circle.svg",
       css: "check-circle-o"
