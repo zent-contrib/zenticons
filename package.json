@@ -1,6 +1,6 @@
 {
   "name": "zenticons",
-  "version": "3.7.4",
+  "version": "3.7.5",
   "main": "lib/zenticons.css",
   "description": "A set of handcrafted icons by Youzan",
   "scripts": {
