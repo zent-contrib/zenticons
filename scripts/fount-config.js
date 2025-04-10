@@ -1087,5 +1087,15 @@ module.exports = {
       src: "back.svg",
       css: "back"
     },
+    {
+      keywords: ["xiaohongshu", "x-name-xiaohongshu", "x-cat-xiaohongshu"],
+      src: "xiaohongshu.svg",
+      css: "xiaohongshu-o"
+    },
+    {
+      keywords: ["xiaohongshu", "x-name-xiaohongshu_fill", "x-cat-xiaohongshu"],
+      src: "xiaohongshu-fill.svg",
+      css: "xiaohongshu"
+    },
   ]
 };
